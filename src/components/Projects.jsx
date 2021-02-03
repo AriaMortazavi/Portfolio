@@ -27,7 +27,7 @@ export default class Projects extends Component {
                     <span>NextJS</span>
                   </div>
                   <span>
-                    <a target="_blank" rel="noopener noreferrer" href="">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI">
                       View web app
                   </a>
                   </span>
