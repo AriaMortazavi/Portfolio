@@ -44,7 +44,7 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href=""
+                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
                     >
                       Dating App
                   </a>
@@ -57,7 +57,7 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href=""
+                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
                     >
                       View web app
                   </a>
@@ -106,7 +106,7 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href=""
+                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
                     >
                       lorem tm vfv fvdsvds dfsvdsv
                   </a>
@@ -119,7 +119,7 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href=""
+                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
                     >
                       View web app
                   </a>
