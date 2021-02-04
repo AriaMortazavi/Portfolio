@@ -41,14 +41,14 @@ class About extends Component {
                 rel="noopener noreferrer"
                 href="https://twitter.com/AriaMortazavi"
               >
-                <img src={photo} alt="Twitter" />
+                <img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" alt="Twitter" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/AriaMortazavi"
               >
-                <img src={photo1} alt="GitHub" />
+                <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" />
               </a>
               <a
                 target="_blank"

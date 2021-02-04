@@ -44,7 +44,7 @@ const Wrapper = styled.div`
     display: flex;
     > div:nth-child(1) {
       width: 30%;
-      background-color: #1e3d59;
+      background-color: white;
     }
 
     @media (max-width: 785px) {
@@ -52,7 +52,7 @@ const Wrapper = styled.div`
         position: fixed;
         top: 0;
         left:0;
-        width: 95% !important;
+        width: 100% !important;
       }
 
         .hiddenSidebar{

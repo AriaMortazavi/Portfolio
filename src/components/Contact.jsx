@@ -205,7 +205,7 @@ const Wrapper = styled.div`
 
         > div:nth-child(2),
         > div:nth-child(4) {
-          background-color: #ebeef1;
+          background-color: #fefefe;
           height: 50px;
           border-radius: 20px;
           margin-bottom: 20px;
@@ -214,13 +214,13 @@ const Wrapper = styled.div`
           > .fas,
           > .far {
             align-self: center;
-            color: #9998a9;
+            color: #ff6e40;
             margin: 0 15px;
           }
 
           > input {
             border: none;
-            background-color: #ebeef1;
+            background-color: #fefefe;
             width: 100%;
             outline: none;
             border-radius: 20px;
@@ -235,7 +235,7 @@ const Wrapper = styled.div`
         }
 
         > div:nth-child(6) {
-          background-color: #ebeef1;
+          background-color: #fefefe;
           height: 150px;
           border-radius: 20px;
           margin-bottom: 40px;
@@ -243,7 +243,7 @@ const Wrapper = styled.div`
           > textarea {
             height: 100%;
             width: 100%;
-            background-color: #ebeef1;
+            background-color: #fefefe;
             resize: none;
             border: none;
             border-radius: 20px;

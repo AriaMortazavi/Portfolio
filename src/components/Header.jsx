@@ -85,7 +85,7 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(Header)
-const Wrapper = styled.div` 
+const Wrapper = styled.div`
 .headerContainer {
   padding-top: 30px;
 

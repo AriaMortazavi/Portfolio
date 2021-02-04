@@ -67,6 +67,11 @@ const Wrapper = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
+    box-shadow: 3px 5px 16px 6px rgba(0,0,0,0.05);
+
+    .portfolioPicture{
+      border: 5px solid #ff6e40;
+    }
 
     .top-container{
       display:none;
@@ -87,15 +92,14 @@ const Wrapper = styled.div`
       align-items: center;
       > .f-span {
       margin-top: 20px;
-      font-family: 'Pacifico', cursive;
       font-size: 1.4375rem;
-      color: white;
+      color: black;
     }
 
     > .s-span {
       margin-top: 20px;
       font-size: 17px;
-      color: white;
+      color: black;
     }
 
     > .p-div {
@@ -104,7 +108,7 @@ const Wrapper = styled.div`
       flex-direction: column;
       width: 80%;
       font-size: 14px;
-      color: white;
+      color: black;
 
       > span {
         margin-bottom: 10px;
@@ -130,28 +134,28 @@ const Wrapper = styled.div`
 
   @media (min-width: 1326px) {
     .portfolioPicture{
-      height: 32% !important;
+      height: auto !important;
       width: 65% !important;
     }
   }
 
   @media (max-width: 1326px) {
     .portfolioPicture{
-      height: 35% !important;
-      width: 55% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 1160px) {
     .portfolioPicture{
-      height: 30% !important;
-      width: 60% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 992px) {
     .portfolioPicture{
-      height: 30% !important;
+      height: auto !important;
       width: 65% !important;
     }
     .p-div{
@@ -164,8 +168,8 @@ const Wrapper = styled.div`
 
   @media (max-width: 880px) {
     .portfolioPicture{
-      height: 30% !important;
-      width: 75% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
@@ -174,50 +178,50 @@ const Wrapper = styled.div`
       display:flex !important;
     }
     .portfolioPicture{
-      height: 40% !important;
-      width: 25% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 670px) {
     .portfolioPicture{
-      height: 40% !important;
-      width: 28% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 560px) {
     .portfolioPicture{
-      height: 40% !important;
-      width: 35% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 490px) {
     .portfolioPicture{
-      height: 40% !important;
-      width: 38% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 460px) {
     .portfolioPicture{
-      height: 40% !important;
-      width: 42% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 400px) {
     .portfolioPicture{
-      height: 35% !important;
-      width: 55% !important;
+      height: auto !important;
+      width: 65% !important;
     }
   }
 
   @media (max-width: 398px) {
     .portfolioPicture{
-      height: 30% !important;
-      width: 41% !important;
+      height: auto !important;
+      width: 65%!important;
     }
   }
 }
