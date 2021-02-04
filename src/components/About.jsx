@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import photo from "../assets/images/Twitter_Social_Icon_Circle_Color.png";
-import photo1 from "../assets/images/GitHub-Mark.png";
 import photo2 from "../assets/images/LI-In-Bug.png";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
