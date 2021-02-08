@@ -1,14 +1,7 @@
 import React, { Component } from 'react'
 import styled from "styled-components";
-import photo2 from "../assets/images/LI-In-Bug.png";
-import { connect } from "react-redux";
-import { toggleActiveTab } from "../store/actions";
-import Projects from './Projects';
 
 export default class Articles extends Component {
-  roundButtonClick(e, tab) {
-    this.props.toggleActiveTab(tab);
-  }
   render() {
     return (
       <Wrapper>
@@ -32,11 +25,11 @@ export default class Articles extends Component {
                 </h2>
                 <br/>
                 <h4>
-                    Wildcat INC, <a name="_wj0puh61kxsr"></a>Nashville TN —
+                    Wildcat INC, Nashville TN —
                     Video Editor<em></em>
                 </h4>
                 <h4>
-                    OCT<a name="_8hk593fs3sag"></a> 2020 – Ongoing (Part-time)
+                    OCT 2020 – Ongoing (Part-time)
                 </h4>
                 <br/>
                 <p>
@@ -55,11 +48,11 @@ export default class Articles extends Component {
                 </p>
                 <br/>
                 <h2>
-                    Technical <a name="_yk8luflkpwij"></a>Skills
+                    Technical Skills
                 </h2>
                 <br/>
                 <p>
-                    <strong>FRONT-END<a name="_6wymnhinx9q5"></a></strong>
+                    <strong>FRONT-END</strong>
                 </p>
                 <br/>
                 <p>
@@ -168,11 +161,6 @@ export default class Articles extends Component {
         </tr>
     </tbody>
 
-<p>
-    <a name="_ca0awj8022e2"></a>
-    <a name="_cxxkes25b26"></a>
-    <a name="_x8fm1uorkbaw"></a>
-</p>
 </div>
       </Wrapper>
     );
