@@ -171,7 +171,7 @@ export default class Articles extends Component {
 
 const Wrapper = styled.div`
  display: flex;  
-    font-size: 16px;
+    font-size: 15px;
    justify-content: center;
    margin: 30px;
 
