@@ -44,7 +44,7 @@ const Wrapper = styled.div`
     display: flex;
     > div:nth-child(1) {
       width: 30%;
-      background-color: white;
+      background-color: #fa7249;
     }
 
     @media (max-width: 785px) {

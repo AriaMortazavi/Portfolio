@@ -93,7 +93,6 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #f0f0f0;
     user-select: none;
     list-style-type:none;
 
@@ -111,12 +110,15 @@ const Wrapper = styled.div`
       font-weight: bold;
       padding-bottom: 30px;
       cursor: default;
-      font-family: font-family: 'Chilanka', cursive;
     }
 
+     li:hover{
+        color: #fa7249;
+      }
+
     .activeLi {
-      color: #ff6e40;
-      border-bottom: 2px solid #ff6e40;
+      color: #fa7249;
+      border-bottom: 2px solid #fa7249;
     }
   }
 }

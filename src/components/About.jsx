@@ -32,28 +32,28 @@ class About extends Component {
               quality result that meets and exceeds
               expectation.
             </span>
-            <span>Find Me on</span>
+            <span>Find me on</span>
             <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com/AriaMortazavi"
               >
-                <img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" alt="Twitter" />
+                <img className="iconImg" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt="Twitter" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/AriaMortazavi"
               >
-                <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" />
+                <img className="iconImg" src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" />
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/aria-m-165820170/"
               >
-                <img src={photo2} alt="LinkedIn" />
+                <img className="iconImg" src={photo2} alt="LinkedIn" />
               </a>
               {/* <a
                 target="_blank"
@@ -74,6 +74,7 @@ class About extends Component {
                 MY RESUME
               </a> */}
             </div>
+            <h1 className="proj_title">Portfolio</h1>
             <Projects></Projects>
           </div>
         </div>
@@ -95,7 +96,6 @@ export default connect(null, mapDispatchToProps)(About);
 const Wrapper = styled.div`
   .about-container {
     display: flex;
-
     .parent-container {
       display: flex;
       flex-direction: column;
@@ -114,6 +114,10 @@ const Wrapper = styled.div`
         font-weight: bold;
         font-size: 20px;
         font-family: "Roboto", sans-serif;
+      }
+      .proj_title{
+        display: flex;
+       justify-content: center;
       }
 
       > span:nth-child(3) {
@@ -138,36 +142,53 @@ const Wrapper = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 10px;
 
         a:nth-child(1) img {
-          height: 40px;
-          width: 40px;
+          height: 50px;
+          width: 50px;
+          &:hover {
+          transform: scale(1.1);
+            transition: all .2s ;
+        }
         }
 
         a:nth-child(2) img {
-          height: 50px;
+          height: 55px;
           width: 50px;
+        }
+        a:nth-child(2) img:hover {
+          transform: scale(1.1);
+            transition: all .2s ;
         }
 
         a:nth-child(3) img {
-          height: 35px;
-          width: 45px;
+          height: 50px;
+          width: 50px;
+        }
+        a:nth-child(3) img:hover {
+          transform: scale(1.1);
+            transition: all .2s ;
         }
 
         a:nth-child(4) img {
-          height: 35px;
-          width: 35px;
+          height: 50px;
+          width: 50px;
+        }
+        a:nth-child(4) img:hover {
+          transform: scale(1.1);
+            transition: all .2s ;
         }
       }
 
       .c-t-div {
         display: flex;
-        margin: 60px 0 100px;
+        margin: 50px 0 30px;
         > span {
           cursor: default;
         }
         .hire-span {
-          background-color: #ff6e40;
+          background-color: #fa7249;
           border-radius: 50px;
           padding: 15px 40px;
           color: #fff;
@@ -175,20 +196,22 @@ const Wrapper = styled.div`
           border: 1px solid transparent;
 
           &:hover {
-            background-color: #fff;
-            border: 1px solid #ff6e40;
-            color: #ff6e40;
+            background-color: #ededed;;
+            border: 1px solid #fa7249;
+            color: #fa7249;
+            transform: scale(1.1);
+            transition: all .2s ;
           }
         }
 
         .resume-link {
-          border: 1px solid #ff6e40;
+          border: 1px solid #fa7249;
           border-radius: 50px;
           padding: 15px 30px;
-          color: #ff6e40;
+          color: #fa7249;
 
           &:hover {
-            background-color: #ff6e40;
+            background-color: #fa7249;
             border: 1px solid transparent;
             color: #fff;
           }

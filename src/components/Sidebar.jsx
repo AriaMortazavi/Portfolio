@@ -68,9 +68,10 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     box-shadow: 3px 5px 16px 6px rgba(0,0,0,0.05);
+    padding: 10px;
 
     .portfolioPicture{
-      border: 5px solid #ff6e40;
+      border: 5px solid #fa7249;
     }
 
     .top-container{
@@ -93,13 +94,13 @@ const Wrapper = styled.div`
       > .f-span {
       margin-top: 20px;
       font-size: 1.4375rem;
-      color: black;
+      color: white;
     }
 
     > .s-span {
       margin-top: 20px;
       font-size: 17px;
-      color: black;
+      color: white;
     }
 
     > .p-div {
@@ -108,7 +109,7 @@ const Wrapper = styled.div`
       flex-direction: column;
       width: 80%;
       font-size: 14px;
-      color: black;
+      color: white;
 
       > span {
         margin-bottom: 10px;

@@ -181,8 +181,12 @@ const Wrapper = styled.div`
           margin-bottom: 5px;
         }
 
-         .m-l-text {
+         .m-l-text  a{
           color: #1c699b;
+        }
+        .m-l-text:hover {
+          transform: scale(1.1);
+            transition: all .2s ;
         }
       }
     }
@@ -214,7 +218,7 @@ const Wrapper = styled.div`
           > .fas,
           > .far {
             align-self: center;
-            color: #ff6e40;
+            color: #fa7249;
             margin: 0 15px;
           }
 
@@ -231,7 +235,7 @@ const Wrapper = styled.div`
 
         > .fill_field {
           font-size: 13px;
-          color: #ff6e40;
+          color: #fa7249;
         }
 
         > div:nth-child(6) {
@@ -255,7 +259,7 @@ const Wrapper = styled.div`
         }
 
         > button {
-          background-color: #ff6e40;
+          background-color: #fa7249;
           border-radius: 50px;
           padding: 15px 0;
           color: #fff;
@@ -265,9 +269,11 @@ const Wrapper = styled.div`
           outline: none;
 
           &:hover {
-            background-color: #fff;
-            border: 1px solid #ff6e40;
-            color: #ff6e40;
+            background-color: #ededed;;
+            border: 1px solid #fa7249;
+            color: #fa7249;
+            transform: scale(1.04);
+            transition: all .2s ;
           }
         }
       }
