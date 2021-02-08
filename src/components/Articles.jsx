@@ -179,14 +179,6 @@ export default class Articles extends Component {
   }
 }
 
-const mapDispatchToProps = dispatch => {
-  return {
-    toggleActiveTab: tab => {
-      dispatch(toggleActiveTab(tab));
-    }
-  };
-};
-
 
 
 const Wrapper = styled.div`
