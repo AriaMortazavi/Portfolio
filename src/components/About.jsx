@@ -33,7 +33,7 @@ class About extends Component {
               developing scalable, dynamic, cutting-edge web and mobile
               apps. Using modern Software Architecture, I
               can work in a team to deliver high
-              quality result that meets and exceeds
+              quality result that exceeds
               expectation.
             </span>
             <span>Find me on</span>
