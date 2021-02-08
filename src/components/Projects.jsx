@@ -17,9 +17,7 @@ export default class Projects extends Component {
                 ></div>
                 <div className="text-container">
                   <span>
-                    <a target="_blank" rel="noopener noreferrer" >
                     Volunteer App
-                  </a>
                   </span>
                   <span>Online Volunttering job web app</span>
                   <div>
@@ -42,11 +40,8 @@ export default class Projects extends Component {
                 ></div>
                 <div className="text-container">
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                    >
+
                       Dating App
-                  </a>
                   </span>
                   <span>Dating online web app</span>
                   <div>
@@ -72,11 +67,8 @@ export default class Projects extends Component {
                 ></div>
                 <div className="text-container">
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                    >
+
                      Non-profit organization
-                  </a>
                   </span>
                   <span>Website to recieve donations for a non profit organization.</span>
                   <div>
@@ -102,11 +94,8 @@ export default class Projects extends Component {
                 ></div>
                 <div className="text-container">
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                    >
+
                       GoElectric fuel calculator
-                  </a>
                   </span>
                   <span>A mobile web app</span>
                   <div>
