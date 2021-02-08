@@ -34,13 +34,6 @@ class Header extends Component {
             >
               Projects
             </li>
-            <li
-              onClick={e => this.headerItemClicked(e, 'Contact')}
-              className={`headerLi ${this.props.activeTab === 'Contact' &&
-                'activeLi'}`}
-            >
-              Contact
-            </li>
 
             <li
               onClick={e => this.headerItemClicked(e, 'Resume')}
@@ -129,6 +122,6 @@ const Wrapper = styled.div`
   }
 
   .hamburger-btn, .headerLi{
-      margin-right: 40px !important;
+      margin-right: 30px !important;
   }
 }`

@@ -17,7 +17,7 @@ export default class Projects extends Component {
                 ></div>
                 <div className="text-container">
                   <span>
-                    <a target="_blank" rel="noopener noreferrer" href="https://worldnewsapp.netlify.com/">
+                    <a target="_blank" rel="noopener noreferrer" >
                     Volunteer App
                   </a>
                   </span>
@@ -27,7 +27,7 @@ export default class Projects extends Component {
                     <span>NextJS</span>
                   </div>
                   <span>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI">
+                    <a target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/">
                       View web app
                   </a>
                   </span>
@@ -44,7 +44,6 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
                     >
                       Dating App
                   </a>
@@ -57,9 +56,9 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
+                      href="https://github.com/shannonmaynard/dating-app"
                     >
-                      View web app
+                      View Github files
                   </a>
                   </span>
                 </div>
@@ -75,7 +74,6 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://play.google.com/store/apps/details?id=com.princewill.e_laundry"
                     >
                      Non-profit organization
                   </a>
@@ -88,7 +86,7 @@ export default class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
+                      href="https://github.com/AriaMortazavi/teamtrees"
                     >
                       View Github files
                   </a>
@@ -99,29 +97,28 @@ export default class Projects extends Component {
                 <div
                   className="anImg"
                   style={{
-                    backgroundImage: 'url()'
+                    backgroundImage: 'url(https://i.gyazo.com/e6f7273f5ca1f2e63ef1e61e401e4b9b.png)'
                   }}
                 ></div>
                 <div className="text-container">
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
                     >
-                      lorem tm vfv fvdsvds dfsvdsv
+                      GoElectric fuel calculator
                   </a>
                   </span>
-                  <span>A web app for.</span>
+                  <span>A mobile web app</span>
                   <div>
                     <span>Technologies used:</span>
-                    <span>Vue JS</span>
+                    <span>NextJS</span>
                   </div>
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz7Lz51c3uAhVG7J4KHYD6DX4QPAgI"
+                      href="https://github.com/AriaMortazavi/GoElectric"
                     >
-                      View web app
+                      View Github files
                   </a>
                   </span>
                 </div>
@@ -160,8 +157,8 @@ const Wrapper = styled.div`
           0 2px 7px 0 rgba(72, 22, 66, 0.05);
           background-color: #f4f4f4;
         &:hover {
-          box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1),
-            0 2px 7px 0 rgba(72, 22, 66, 0.1);
+          box-shadow: 0 2px 7px 0 #fa7249,
+            0 2px 7px 0 #fa7249;
         }
 
         .anImg {
@@ -181,8 +178,8 @@ const Wrapper = styled.div`
 
           > span:nth-child(1) {
             font-weight: bold;
-            font-size: 13px;
-            color: #1c699b;
+            font-size: 15px;
+            color: black;
             font-family: 'Poppins', sans-serif;
           }
 

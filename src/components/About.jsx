@@ -17,6 +17,10 @@ class About extends Component {
   //   link.dispatchEvent(new MouseEvent("click"));
   // }
 
+  // <a href="mailto: ariamortazavi@ymail.com">
+  //                 ariamortazavi@ymail.com
+  //               </a>
+
   render() {
     return (
       <Wrapper>
@@ -37,9 +41,16 @@ class About extends Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/AriaMortazavi"
+                href="https://twitter.com/Aria_Mor"
               >
                 <img className="iconImg" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt="Twitter" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto: ariamortazavi@ymail.com"
+              >
+                <img className="iconImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/1024px-Circle-icons-mail.svg.png" alt="Twitter" />
               </a>
               <a
                 target="_blank"
@@ -75,7 +86,7 @@ class About extends Component {
               </a> */}
             </div>
             <h1 className="proj_title">Portfolio</h1>
-            <Projects></Projects>
+            <Projects className="proj_bar"></Projects>
           </div>
         </div>
       </Wrapper>

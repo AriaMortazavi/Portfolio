@@ -79,17 +79,14 @@ export default class Contact extends Component {
           <div className="helloContainer">
             <div className="h-f-div">
               <span>Hello !</span>
-              <span className="f-r-span">Feel free to reach out to me, if you</span>
-              <span>have any questions or concerns.</span>
-            </div>
-
-            <div className="h-s-div">
-              <span className="s-d-text">Send me an email directly:</span>
+              <span className="f-r-span">Feel free to reach out to me, if you have any questions or concerns. Send me an email directly:</span>
+              <br></br>
               <span className="m-l-text">
                 <a href="mailto: ariamortazavi@ymail.com">
                   ariamortazavi@ymail.com
                 </a>
               </span>
+              
             </div>
           </div>
           <div className="formContainer">
@@ -154,6 +151,7 @@ const Wrapper = styled.div`
       .h-f-div{
         display: flex;
         flex-direction: column;
+        align-content: center;
           > span:nth-child(1) {
           font-weight: bold;
           font-size: 35px;
@@ -163,17 +161,6 @@ const Wrapper = styled.div`
         > .f-r-span,
         > span:nth-child(3) {
           font-size: 17px;
-        }
-      }
-
-      .h-s-div {
-        display: flex;
-        flex-direction: column;
-        padding-top: 30px;
-
-        > .or-span {
-          padding-left: 100px;
-          margin-top: 50px;
         }
 
         .s-d-text {
@@ -192,7 +179,7 @@ const Wrapper = styled.div`
     }
 
     > .formContainer {
-      width: 60%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       padding-left: 10%;
@@ -294,18 +281,16 @@ const Wrapper = styled.div`
     .formContainer {
       width: 100% !important;
       margin-top: 60px;
+      margin-bottom: 70px;
     }
     .h-f-div{
-      width: 45%;
+      width: 100%;
     }
-    .h-s-div{
-      width: 58%;
-    }
+
     .s-d-text {
       margin-top: auto !important;
     }
     .or-span{
-      display:none;
     }
   }
 `

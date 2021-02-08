@@ -41,7 +41,7 @@ class Sidebar extends Component {
                 <i className="fas fa-dot-circle"></i>The Adobe Suite
               </span>
               <span>
-                <i className="fas fa-dot-circle"></i>Node JS
+                <i className="fas fa-dot-circle"></i>Sketch, Figma, Balsamiq
               </span>
             </div>
           </div>
