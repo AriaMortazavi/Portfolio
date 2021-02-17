@@ -35,13 +35,13 @@ class Sidebar extends Component {
             <span className="s-span">Front-End &#38; UX/UI Designer</span>
             <div className="p-div">
               <span>
-                <i className="fas fa-dot-circle"></i>React, React Native, NextJS, and PHP 
+                <i className="fas fa-dot-circle"></i>React, React Native, NextJS, and PHP <i className="fas fa-dot-circle"></i>
               </span>
               <span>
-                <i className="fas fa-dot-circle"></i>The Adobe Suite
+                <i className="fas fa-dot-circle"></i>The Adobe Suite <i className="fas fa-dot-circle"></i>
               </span>
               <span>
-                <i className="fas fa-dot-circle"></i>Sketch, Figma, Balsamiq
+                <i className="fas fa-dot-circle"></i>Sketch, Figma, Balsamiq <i className="fas fa-dot-circle"></i>
               </span>
             </div>
           </div>
@@ -69,6 +69,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     box-shadow: 3px 5px 16px 6px rgba(0,0,0,0.05);
     padding: 10px;
+    padding-bottom: 50px;
 
     .portfolioPicture{
       border: 5px solid #fa7249;
@@ -92,7 +93,7 @@ const Wrapper = styled.div`
       justify-content: center;
       align-items: center;
       > .f-span {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.4375rem;
       color: white;
     }
@@ -110,6 +111,7 @@ const Wrapper = styled.div`
       width: 80%;
       font-size: 14px;
       color: white;
+      text-align: center;
 
       > span {
         margin-bottom: 10px;

@@ -10,41 +10,41 @@ export default class Articles extends Component {
         <tr>
             <td  valign="top">
                 <p>
-                    <strong>Summary</strong>
+                    <h2>Summary</h2>
                 </p>
                 <br/>
                 <p>
                     BCIT Diploma in Digital Design and Development with
-                    extensive skills in responsive front-end development (HTML,
-                    CSS, JavaScript, PHP, and the React library), UX/UI design,
-                    and graphic design.
                 </p>
+                <p>
+                skills in responsive front-end development,
+                    UX/UI design,
+                    </p>
+                    <p> and graphic design.</p>
                 <br/>
                 <h2>
                     EXPERIENCE
                 </h2>
                 <br/>
                 <h4>
-                    Wildcat INC, Nashville TN —
+                    Wildcat INC —
                     Video Editor<em></em>
                 </h4>
                 <h4>
-                    OCT 2020 – Ongoing (Part-time)
+                    OCT 2020 – Ongoing
                 </h4>
                 <br/>
                 <p>
-                    ● Cutting, stitching, color correcting, subtitling, sound
-                    effect creation
+                    ● animating, color correcting, subtitling, and audio engineering
                 </p>
                 <p>
                     ● Commonly provided daily turnarounds with limited time
                 </p>
                 <p>
-                    ● Creation of visual images using illustrator and photoshop
+                    ● Creating graphics using the Adobe suite
                 </p>
                 <p>
-                    ● Working with other team members to provide polished
-                    products
+                    ● Working with in a team
                 </p>
                 <br/>
                 <h2>
@@ -56,19 +56,16 @@ export default class Articles extends Component {
                 </p>
                 <br/>
                 <p>
-                    ● Responsive front-end design skills in HTML, CSS, JS, and
-                    PHP
+                    ● Responsive front-end design
                 </p>
                 <p>
                     ● Proficient in the React library
                 </p>
                 <p>
-                    ● Converting high fidelity prototypes to responsive
-                    applications
+                    ● Converting prototypes to responsive applications
                 </p>
                 <p>
-                    ● Proper implementation of front-end web apps for back end
-                    connection
+                    ● Connecting front-end to back-end
                 </p>
                 <p>
                     ● Familiar with MySQL Database service navigation
@@ -82,15 +79,13 @@ export default class Articles extends Component {
                 </p>
                 <br/>
                 <p>
-                    ● Creation of up to date industry standard interfaces using
-                    the Adobe suite, InDesign, and Sketch
+                    ● Creating industry standard interfaces using the Adobe suite, InDesign, and Sketch
                 </p>
                 <p>
                     ● Experience in conducting proper user research
                 </p>
                 <p>
-                    ● Skills in creating low and high-fidelity user testable
-                    prototypes
+                    ● Creating user testable prototypes
                 </p>
                 <p>
                     ● Creating industry competitive user persona for prototypes
@@ -103,7 +98,7 @@ export default class Articles extends Component {
                 </h2>
                 <br/>
                 <h4>
-                    British Columbia Institution of Technology
+                    BCIT
                     <br/>
                     Burnaby, BC — <em>Diploma</em>
                 </h4>
@@ -140,23 +135,22 @@ export default class Articles extends Component {
                     Soft Skills
                 </h2>
                 <br/>
-                <ul>
-                    <li>
-                        Collaborating
-                    </li>
-                    <li>
-                        Listening
-                    </li>
-                    <li>
-                        Problem solving
-                    </li>
-                    <li>
-                        Communication
-                    </li>
-                    <li>
-                        Time management
-                    </li>
-                </ul>
+                   <p>
+                    ● Collaborating
+                 </p>
+                 <p>
+                    ● Listening
+                    </p>
+                    <p>
+                    ● Problem solving
+                    </p>
+                    <p>
+                    ● Communication
+                    </p>
+                    <p>
+                    ● Time management
+                    </p>
+
             </td>
         </tr>
     </tbody>
@@ -170,15 +164,17 @@ export default class Articles extends Component {
 
 
 const Wrapper = styled.div`
+ overflow-y: auto;
  display: flex;  
-    font-size: 15px;
+    font-size: 16px;
    justify-content: center;
-   margin: 30px;
 
   h2{
       color: #fa7249;
     }
     .inside_text{
-      width: 80%;
+      width: 90%;
+      height: 100vh;
+      padding: 20px;
     }
 `

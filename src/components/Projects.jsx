@@ -70,7 +70,7 @@ export default class Projects extends Component {
 
                      Non-profit organization
                   </span>
-                  <span>Website to recieve donations for a non profit organization.</span>
+                  <span>Web app for a non profit organization.</span>
                   <div>
                     <span>Technologies used:</span>
                     <span>PHP</span>

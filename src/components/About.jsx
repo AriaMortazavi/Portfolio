@@ -77,9 +77,9 @@ class About extends Component {
             <div className="c-t-div">
               <span
                 className="hire-span"
-                onClick={e => this.roundButtonClick(e, "Contact")}
+                onClick={e => this.roundButtonClick(e, "Resume")}
               >
-                HIRE ME
+                My Resume
               </span>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME

@@ -116,7 +116,7 @@ const Wrapper = styled.div`
   }
 }
 
-@media (max-width: 785px) {
+@media (max-width: 670px) {
   .hamburger-btn{
     display: block !important;
   }
