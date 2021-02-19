@@ -74,6 +74,7 @@ export default class Articles extends Component {
                     ● Ability to navigate and collaborate using Git
                 </p>
                 <br/>
+          
                 <p>
                     <strong>Design and UX/UI</strong>
                 </p>
@@ -90,8 +91,8 @@ export default class Articles extends Component {
                 <p>
                     ● Creating industry competitive user persona for prototypes
                 </p>
-            </td>
             <br/>
+            </td>
             <td valign="top">
                 <h2>
                     Education
@@ -168,13 +169,17 @@ const Wrapper = styled.div`
  display: flex;  
     font-size: 16px;
    justify-content: center;
+   
 
+td{
+    padding: 10px;
+}
   h2{
       color: #fa7249;
     }
     .inside_text{
       width: 90%;
-      height: 100vh;
+      height: 80vh;
       padding: 20px;
     }
 `
