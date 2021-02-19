@@ -12,7 +12,7 @@ export default class Projects extends Component {
                 <div
                   className="anImg"
                   style={{
-                    backgroundImage: 'url(https://i.gyazo.com/18a91c32f31f9bfbd1a62a55d0a6b863.jpg)'
+                    backgroundImage: 'url(https://i.gyazo.com/6a0da55471629139f1e839772803c162.png)'
                   }}
                 ></div>
                 <div className="text-container">
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                 <div
                   className="anImg"
                   style={{
-                    backgroundImage: 'url(https://i.gyazo.com/87389f0bbcede6846e2a809cca63b10c.png)'
+                    backgroundImage: 'url(https://i.gyazo.com/34d7fa44e39f4dc6eee1ea7af77301c7.png)'
                   }}
                 ></div>
                 <div className="text-container">
@@ -62,7 +62,7 @@ export default class Projects extends Component {
                 <div
                   className="anImg"
                   style={{
-                    backgroundImage: 'url(https://i.gyazo.com/37c7c7870000dbdf0ef5ec8752b59a30.jpg)'
+                    backgroundImage: 'url(https://i.gyazo.com/934ff07d876d3b90e5434e3a8c4e159d.jpg)'
                   }}
                 ></div>
                 <div className="text-container">
@@ -89,7 +89,7 @@ export default class Projects extends Component {
                 <div
                   className="anImg"
                   style={{
-                    backgroundImage: 'url(https://i.gyazo.com/e6f7273f5ca1f2e63ef1e61e401e4b9b.png)'
+                    backgroundImage: 'url(https://i.gyazo.com/6a8031b3b856500494676dc6f18c8222.png)'
                   }}
                 ></div>
                 <div className="text-container">
