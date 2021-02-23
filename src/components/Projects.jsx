@@ -9,7 +9,7 @@ export default class Projects extends Component {
           <div className='parent-container'>
             <div className='m-container'>
               <div className='item-container'>
-                <a href="https://takfive-frontend-7oawpuhxb.vercel.app/">
+                <a href="https://takfive-frontend-7oawpuhxb.vercel.app/" target="_blank">
                 <div
                   className="anImg"
                   style={{
@@ -34,7 +34,7 @@ export default class Projects extends Component {
                 </a>
               </div>
               <div className='item-container'>
-              <a href="https://github.com/shannonmaynard/dating-app">
+              <a href="https://github.com/shannonmaynard/dating-app" target="_blank">
                 <div
                   className="anImg"
                   style={{
@@ -63,7 +63,7 @@ export default class Projects extends Component {
                 </a>
               </div>
               <div className='item-container'>
-                <a href="https://github.com/AriaMortazavi/teamtrees">
+                <a href="https://github.com/AriaMortazavi/teamtrees" target="_blank">
                 <div
                   className="anImg"
                   style={{
@@ -92,7 +92,7 @@ export default class Projects extends Component {
                 </a>
               </div>
               <div className='item-container'>
-                <a  href="https://github.com/AriaMortazavi/GoElectric">
+                <a  href="https://github.com/AriaMortazavi/GoElectric" target="_blank">
                 <div
                   className="anImg"
                   style={{
@@ -121,7 +121,7 @@ export default class Projects extends Component {
                 </a>
               </div>
               <div className='item-container'>
-                <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041">
+                <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041" target="_blank">
                 <div
                   className="anImg"
                   style={{
