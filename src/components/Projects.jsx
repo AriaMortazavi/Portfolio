@@ -9,6 +9,7 @@ export default class Projects extends Component {
           <div className='parent-container'>
             <div className='m-container'>
               <div className='item-container'>
+                <a href="https://takfive-frontend-7oawpuhxb.vercel.app/">
                 <div
                   className="anImg"
                   style={{
@@ -30,8 +31,10 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
+                </a>
               </div>
               <div className='item-container'>
+              <a href="https://github.com/shannonmaynard/dating-app">
                 <div
                   className="anImg"
                   style={{
@@ -57,8 +60,10 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
+                </a>
               </div>
               <div className='item-container'>
+                <a href="https://github.com/AriaMortazavi/teamtrees">
                 <div
                   className="anImg"
                   style={{
@@ -84,8 +89,10 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
+                </a>
               </div>
               <div className='item-container'>
+                <a  href="https://github.com/AriaMortazavi/GoElectric">
                 <div
                   className="anImg"
                   style={{
@@ -111,6 +118,7 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
+                </a>
               </div>
             </div>
           </div>
