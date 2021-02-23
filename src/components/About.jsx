@@ -29,7 +29,7 @@ class About extends Component {
             <span>Hello, I'm</span>
             <span>Aria Mortazavi</span>
             <span>
-              I am a Front-End Software Developer and UX/UI Designer. I am assionate about
+              I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
               apps. Using modern Software Architecture, I
               can work in alone or in teams to deliver high
