@@ -125,7 +125,7 @@ export default class Projects extends Component {
                 <div
                   className="anImg"
                   style={{
-                    backgroundImage: 'url(https://i.gyazo.com/eaf87570ca39e935e29e3d4c7a696b01.jpg)'
+                    backgroundImage: 'url(https://i.gyazo.com/75277878d0eeb54a6575154761a5757b.jpg)'
                   }}
                 ></div>
                 <div className="text-container">
