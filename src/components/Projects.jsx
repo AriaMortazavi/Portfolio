@@ -120,6 +120,35 @@ export default class Projects extends Component {
                 </div>
                 </a>
               </div>
+              <div className='item-container'>
+                <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041">
+                <div
+                  className="anImg"
+                  style={{
+                    backgroundImage: 'url(https://i.gyazo.com/eaf87570ca39e935e29e3d4c7a696b01.jpg)'
+                  }}
+                ></div>
+                <div className="text-container">
+                  <span>
+
+                  Non-fungible tokens (NFT) Digital Asset
+                  </span>
+                  <span>NFT Graphic Design</span>
+                  <div>
+                    <span>Technologies used:</span>
+                    <span>Etherium Blockchain</span>
+                  </div>
+                  <span>
+                    <a
+                      target="_blank" rel="noopener noreferrer"
+                      href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041"
+                    >
+                      View NFT Art
+                  </a>
+                  </span>
+                </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
