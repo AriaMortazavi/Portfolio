@@ -80,7 +80,7 @@ export default class Articles extends Component {
                 </p>
                 <br/>
                 <p>
-                    ● Creating industry standard interfaces using the Adobe suite, InDesign, and Sketch
+                    ● Industry standard interfaces in the Adobe suite, InDesign, or Sketch
                 </p>
                 <p>
                     ● Experience in conducting proper user research
@@ -151,9 +151,18 @@ export default class Articles extends Component {
                     <p>
                     ● Time management
                     </p>
+                    <br></br>
+                    <br></br>
+                    <a
+                className="hire-span"
+                href="https://drive.google.com/uc?export=download&id=10Q62YoYQ71DhRrbe-cp_yeiqSNA6iaIF"
+              >
+                Download
+              </a>
 
             </td>
         </tr>
+        <br></br><br></br>
     </tbody>
 
 </div>
@@ -181,5 +190,22 @@ td{
       width: 90%;
       height: 80vh;
       padding: 20px;
+    }
+
+    .hire-span {
+          background-color: #fa7249;
+          border-radius: 50px;
+          padding: 15px 40px;
+          color: #fff;
+          margin-right: 30px;
+          border: 1px solid transparent;
+
+          &:hover {
+            background-color: #ededed;;
+            border: 1px solid #fa7249;
+            color: #fa7249;
+            transform: scale(1.1);
+            transition: all .2s ;
+          }
     }
 `

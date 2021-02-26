@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import styled from 'styled-components'
+import { connect } from "react-redux";
+import { toggleActiveTab } from "../store/actions";
 
-export default class Projects extends Component {
+class Projects extends Component {
+  volunteerButtonClick(e, tab) {
+    this.props.toggleActiveTab(tab);
+  }
   render() {
     return (
       <Wrapper>
@@ -9,7 +14,9 @@ export default class Projects extends Component {
           <div className='parent-container'>
             <div className='m-container'>
               <div className='item-container'>
-                <a href="https://takfive-frontend-7oawpuhxb.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <span
+                onClick={e => this.volunteerButtonClick(e, "VolApp")}
+              >
                 <div
                   className="anImg"
                   style={{
@@ -31,10 +38,12 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
-                </a>
+                </span>
               </div>
               <div className='item-container'>
-              <a href="https://github.com/shannonmaynard/dating-app" target="_blank" rel="noopener noreferrer">
+              <span
+                onClick={e => this.volunteerButtonClick(e, "About")}
+              >
                 <div
                   className="anImg"
                   style={{
@@ -60,10 +69,12 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
-                </a>
+                </span>
               </div>
               <div className='item-container'>
-                <a href="https://github.com/AriaMortazavi/teamtrees" target="_blank" rel="noopener noreferrer">
+              <span
+                onClick={e => this.volunteerButtonClick(e, "About")}
+              >
                 <div
                   className="anImg"
                   style={{
@@ -89,10 +100,12 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
-                </a>
+                </span>
               </div>
               <div className='item-container'>
-                <a  href="https://github.com/AriaMortazavi/GoElectric" target="_blank" rel="noopener noreferrer">
+              <span
+                onClick={e => this.volunteerButtonClick(e, "About")}
+              >
                 <div
                   className="anImg"
                   style={{
@@ -118,10 +131,12 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
-                </a>
+                </span>
               </div>
               <div className='item-container'>
-                <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041" target="_blank" rel="noopener noreferrer">
+              <span
+                onClick={e => this.volunteerButtonClick(e, "About")}
+              >
                 <div
                   className="anImg"
                   style={{
@@ -147,7 +162,7 @@ export default class Projects extends Component {
                   </a>
                   </span>
                 </div>
-                </a>
+                </span>
               </div>
             </div>
           </div>
@@ -156,6 +171,16 @@ export default class Projects extends Component {
     )
   }
 }
+
+const mapDispatchToProps = dispatch => {
+  return {
+    toggleActiveTab: tab => {
+      dispatch(toggleActiveTab(tab));
+    }
+  };
+};
+
+export default connect(null, mapDispatchToProps)(Projects);
 
 const Wrapper = styled.div`
   .projects-container {

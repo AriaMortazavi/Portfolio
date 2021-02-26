@@ -5,6 +5,7 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import Articles from './Articles'
+import VolApp from './VolApp'
 import { connect } from 'react-redux'
 
 class MainLayout extends Component {
@@ -27,7 +28,9 @@ const ActiveComponent = tab => {
     <Projects />
   ) : tab.activeTab === 'Contact' ? (
     <Contact />
-  ) : (
+  ) :tab.activeTab === 'VolApp' ? (
+    <VolApp />
+  ) :  (
     <Articles />
   )
 }

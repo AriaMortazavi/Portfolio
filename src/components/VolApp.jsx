@@ -1,33 +1,20 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import photo2 from "../assets/images/LI-In-Bug.png";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
-import Projects from './Projects';
 
-class About extends Component {
-  roundButtonClick(e, tab) {
+class VolApp extends Component {
+  volunteerButtonClick(e, tab) {
     this.props.toggleActiveTab(tab);
   }
-
-  // downloadResume() {
-  //   const link = document.createElement("a");
-  //   link.href = "./documents/Princewill_Iroka_Resume.pdf";
-  //   link.download = "Princewill Iroka Resume";
-  //   link.dispatchEvent(new MouseEvent("click"));
-  // }
-
-  // <a href="mailto: ariamortazavi@ymail.com">
-  //                 ariamortazavi@ymail.com
-  //               </a>
 
   render() {
     return (
       <Wrapper>
         <div className="about-container">
           <div className="parent-container">
-            <span>Hello, I'm</span>
-            <span>Aria Mortazavi</span>
+            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; CommAid</u></a>
+            <span>CommAid</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -35,58 +22,19 @@ class About extends Component {
               can work in alone or in teams to deliver high
               quality results that exceed
               expectation.
-            </span>
-            <span>Find me on</span>
-            <div>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://twitter.com/Aria_Mor"
-              >
-                <img className="iconImg" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt="Twitter" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto: ariamortazavi@ymail.com"
-              >
-                <img className="iconImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/1024px-Circle-icons-mail.svg.png" alt="Twitter" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/AriaMortazavi"
-              >
-                <img className="iconImg" src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/aria-m-165820170/"
-              >
-                <img className="iconImg" src={photo2} alt="LinkedIn" />
-              </a>
-              {/* <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href=""
-              >
-                <img src={photo3} alt="Stackoverflow" />
-              </a>               */}
-            </div>
+            </span> <br></br>
+            <img className="big_img" src="https://i.gyazo.com/6a0da55471629139f1e839772803c162.png"></img>
             <div className="c-t-div">
-              <span
+              <a
                 className="hire-span"
-                onClick={e => this.roundButtonClick(e, "Resume")}
+                target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/"
               >
-                My Resume
-              </span>
+                Check out the site
+              </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
               </a> */}
             </div>
-            <h1 className="proj_title">Portfolio</h1>
-            <Projects className="proj_bar"></Projects>
           </div>
         </div>
       </Wrapper>
@@ -102,17 +50,25 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(About);
+export default connect(null, mapDispatchToProps)(VolApp);
 
 const Wrapper = styled.div`
+display: flex;
+.back_img{
+  cursor: pointer;
+  color: #ff6e40;
+}
+.big_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   .about-container {
-    display: flex;
     .parent-container {
       display: flex;
       flex-direction: column;
-      padding: 70px 8% 0;
-      height: 100vh;
-      overflow-y: auto;
+      padding: 70px 15% 0;
 
       > span:nth-child(1) {
         color: #707070;
@@ -123,8 +79,9 @@ const Wrapper = styled.div`
       > span:nth-child(2) {
         color: #ff6e40;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 56px;
         font-family: "Roboto", sans-serif;
+        align-items: center;
       }
       .proj_title{
         display: flex;
@@ -205,6 +162,9 @@ const Wrapper = styled.div`
           color: #fff;
           margin-right: 30px;
           border: 1px solid transparent;
+          width: 50%;
+        margin: 0 auto;
+        text-align: center;
 
           &:hover {
             background-color: #ededed;;
