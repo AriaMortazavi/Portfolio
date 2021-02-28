@@ -9,20 +9,14 @@ export default class Articles extends Component {
           <FadeIn>
         <div className="inside_text">
     <tbody>
-        <tr>
-            <td  valign="top">
                 <p>
                     <h2>Summary</h2>
                 </p>
                 <br/>
                 <p>
                     BCIT Diploma in Digital Design and Development with
-                </p>
-                <p>
                 skills in responsive front-end development,
-                    UX/UI design,
-                    </p>
-                    <p> and graphic design.</p>
+                    UX/UI design,and graphic design.</p>
                 <br/>
                 <h2>
                     EXPERIENCE
@@ -94,8 +88,6 @@ export default class Articles extends Component {
                     ● Creating industry competitive user persona for prototypes
                 </p>
             <br/>
-            </td>
-            <td valign="top">
                 <h2>
                     Education
                 </h2>
@@ -108,7 +100,7 @@ export default class Articles extends Component {
                 <br/>
                 <p>
                     Digital Design and Development in Business Media
-                </p>
+                </p><br/>
                 <p>
                     ● Industry competitive front-end design skills across
                     various digital platforms
@@ -161,9 +153,6 @@ export default class Articles extends Component {
               >
                 Download
               </a>
-
-            </td>
-        </tr>
         <br></br><br></br>
     </tbody>
 
