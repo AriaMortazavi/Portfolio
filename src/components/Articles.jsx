@@ -193,6 +193,7 @@ td{
           padding: 15px 40px;
           color: #fff;
           margin-right: 30px;
+          margin-bottom: 30px;
           border: 1px solid transparent;
 
           &:hover {
