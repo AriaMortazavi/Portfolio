@@ -3,8 +3,14 @@ import photo from "../assets/images/portfolio_pic2.jpg";
 import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleMobileView } from "../store/actions";
+import { toggleActiveTab } from "../store/actions";
 
 class Sidebar extends Component {
+  
+  roundButtonClick(e, tab) {
+    this.props.toggleActiveTab(tab);
+  }
+
   portfolioPictureStyle = () => {
     return {
       height: "30%",
@@ -30,6 +36,7 @@ class Sidebar extends Component {
               alt="Portfolio"
               className="portfolioPicture"
               style={this.portfolioPictureStyle()}
+              onClick={e => this.roundButtonClick(e, "About")}
             />
             <span className="f-span">Aria Mortazavi</span>
             <span className="s-span">Front-End &#38; UX/UI Designer</span>
@@ -56,6 +63,9 @@ const mapDispatchToProps = (dispatch) => {
     closeSidebar: () => {
       dispatch(toggleMobileView());
     },
+    toggleActiveTab: tab => {
+      dispatch(toggleActiveTab(tab));
+    }
   };
 };
 
@@ -73,6 +83,7 @@ const Wrapper = styled.div`
 
     .portfolioPicture{
       border: 5px solid #fa7249;
+      cursor: pointer;
     }
 
     .top-container{
