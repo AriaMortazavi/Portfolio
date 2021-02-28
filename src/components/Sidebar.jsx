@@ -74,7 +74,6 @@ const Wrapper = styled.div`
 
     .portfolioPicture{
       border: 5px solid #fa7249;
-      cursor: pointer;
     }
 
     .top-container{
