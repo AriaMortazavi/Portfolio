@@ -6,6 +6,10 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Articles from './Articles'
 import VolApp from './VolApp'
+import NFTApp from './NFTApp'
+import CarApp from './CarApp'
+import DatingApp from './DatingApp'
+import NonProfitApp from './NonProfitApp'
 import { connect } from 'react-redux'
 
 class MainLayout extends Component {
@@ -30,7 +34,15 @@ const ActiveComponent = tab => {
     <Contact />
   ) :tab.activeTab === 'VolApp' ? (
     <VolApp />
-  ) :  (
+  ) :  tab.activeTab === 'NonProfitApp' ? (
+    <NonProfitApp />
+  ) : tab.activeTab === 'NFTApp' ? (
+    <NFTApp />
+  ) : tab.activeTab === 'DatingApp' ? (
+    <DatingApp />
+  ) : tab.activeTab === 'CarApp' ? (
+    <CarApp />
+  ) : (
     <Articles />
   )
 }

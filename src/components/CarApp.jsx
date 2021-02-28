@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
 
-class VolApp extends Component {
+class CarApp extends Component {
   volunteerButtonClick(e, tab) {
     this.props.toggleActiveTab(tab);
   }
@@ -15,8 +15,8 @@ class VolApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; CommAid</u></a>
-            <span>CommAid</span>
+            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; GoElectric</u></a>
+            <span>GoElectric</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -25,11 +25,11 @@ class VolApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/6a0da55471629139f1e839772803c162.png"></img>
+            <img className="big_img" src="https://i.gyazo.com/6a8031b3b856500494676dc6f18c8222.png"></img>
             <div className="c-t-div">
               <a
                 className="hire-span"
-                target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/"
+                target="_blank" rel="noopener noreferrer" href="https://github.com/AriaMortazavi/GoElectric"
               >
                 Check out the site
               </a>
@@ -53,7 +53,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(VolApp);
+export default connect(null, mapDispatchToProps)(CarApp);
 
 const Wrapper = styled.div`
 display: flex;
@@ -65,7 +65,7 @@ display: flex;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
 }
   .about-container {
     .parent-container {

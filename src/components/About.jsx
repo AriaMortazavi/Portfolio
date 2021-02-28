@@ -4,30 +4,32 @@ import photo2 from "../assets/images/LI-In-Bug.png";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import Projects from './Projects';
+import FadeIn from 'react-fade-in';
+import TypeWriterEffect from 'react-typewriter-effect';
 
 class About extends Component {
   roundButtonClick(e, tab) {
     this.props.toggleActiveTab(tab);
   }
-
-  // downloadResume() {
-  //   const link = document.createElement("a");
-  //   link.href = "./documents/Princewill_Iroka_Resume.pdf";
-  //   link.download = "Princewill Iroka Resume";
-  //   link.dispatchEvent(new MouseEvent("click"));
-  // }
-
-  // <a href="mailto: ariamortazavi@ymail.com">
-  //                 ariamortazavi@ymail.com
-  //               </a>
-
   render() {
     return (
       <Wrapper>
+        <FadeIn>
         <div className="about-container">
           <div className="parent-container">
             <span>Hello, I'm</span>
-            <span>Aria Mortazavi</span>
+            <TypeWriterEffect
+            className="myname"
+            textStyle={{
+              color: '#ff6e40',
+              fontWeight: 500,
+              fontSize: '1.5em',
+            }}
+            startDelay={0}
+            cursorColor='#ff6e40'
+            text="Aria Mortazavi"
+            typeSpeed={100}
+          />
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -85,10 +87,11 @@ class About extends Component {
                 MY RESUME
               </a> */}
             </div>
-            <h1 className="proj_title">Portfolio</h1>
+            <h1 className="proj_title">Projects</h1>
             <Projects className="proj_bar"></Projects>
           </div>
         </div>
+        </FadeIn>
       </Wrapper>
     );
   }

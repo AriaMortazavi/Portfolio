@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import styled from "styled-components";
+import FadeIn from 'react-fade-in';
 
 export default class Articles extends Component {
   render() {
     return (
       <Wrapper>
+          <FadeIn>
         <div className="inside_text">
     <tbody>
         <tr>
@@ -166,6 +168,7 @@ export default class Articles extends Component {
     </tbody>
 
 </div>
+</FadeIn>
       </Wrapper>
     );
   }
@@ -178,6 +181,9 @@ const Wrapper = styled.div`
  display: flex;  
     font-size: 16px;
    justify-content: center;
+   margin-left: auto;
+  margin-right: auto;
+  width: 80%;
    
 
 td{

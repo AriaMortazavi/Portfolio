@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
 
-class VolApp extends Component {
+class NFTApp extends Component {
   volunteerButtonClick(e, tab) {
     this.props.toggleActiveTab(tab);
   }
@@ -15,8 +15,8 @@ class VolApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; CommAid</u></a>
-            <span>CommAid</span>
+            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; NFT Art Work</u></a>
+            <span>NFT Art Work</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -25,11 +25,11 @@ class VolApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/6a0da55471629139f1e839772803c162.png"></img>
+            <img className="big_img" src="https://i.gyazo.com/75277878d0eeb54a6575154761a5757b.jpg"></img>
             <div className="c-t-div">
               <a
                 className="hire-span"
-                target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/"
+                target="_blank" rel="noopener noreferrer" href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041"
               >
                 Check out the site
               </a>
@@ -53,7 +53,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(VolApp);
+export default connect(null, mapDispatchToProps)(NFTApp);
 
 const Wrapper = styled.div`
 display: flex;

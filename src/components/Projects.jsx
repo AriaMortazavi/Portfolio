@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled from 'styled-components'
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
+import FadeIn from 'react-fade-in';
 
 class Projects extends Component {
   volunteerButtonClick(e, tab) {
@@ -10,6 +11,7 @@ class Projects extends Component {
   render() {
     return (
       <Wrapper>
+        <FadeIn>
         <div className="projects-container">
           <div className='parent-container'>
             <div className='m-container'>
@@ -42,7 +44,7 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "About")}
+                onClick={e => this.volunteerButtonClick(e, "DatingApp")}
               >
                 <div
                   className="anImg"
@@ -73,7 +75,7 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "About")}
+                onClick={e => this.volunteerButtonClick(e, "NonProfitApp")}
               >
                 <div
                   className="anImg"
@@ -104,7 +106,7 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "About")}
+                onClick={e => this.volunteerButtonClick(e, "CarApp")}
               >
                 <div
                   className="anImg"
@@ -135,7 +137,7 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "About")}
+                onClick={e => this.volunteerButtonClick(e, "NFTApp")}
               >
                 <div
                   className="anImg"
@@ -167,6 +169,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
+        </FadeIn>
       </Wrapper>
     )
   }
