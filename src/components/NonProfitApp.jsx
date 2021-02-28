@@ -15,7 +15,7 @@ class NonProfitApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Donation Site</u></a>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Donation Site</u></div>
             <span>Team Trees Donation Site</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
@@ -25,7 +25,7 @@ class NonProfitApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/934ff07d876d3b90e5434e3a8c4e159d.jpg"></img>
+            <img alt="" className="big_img" src="https://i.gyazo.com/934ff07d876d3b90e5434e3a8c4e159d.jpg"></img>
             <div className="c-t-div">
               <a
                 className="hire-span"

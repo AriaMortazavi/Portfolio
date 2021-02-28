@@ -15,7 +15,7 @@ class NFTApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; NFT Art Work</u></a>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; NFT Art Work</u></div>
             <span>NFT Art Work</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
@@ -25,7 +25,7 @@ class NFTApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/75277878d0eeb54a6575154761a5757b.jpg"></img>
+            <img alt="" className="big_img" src="https://i.gyazo.com/75277878d0eeb54a6575154761a5757b.jpg"></img>
             <div className="c-t-div">
               <a
                 className="hire-span"

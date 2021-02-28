@@ -15,7 +15,7 @@ class CarApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; GoElectric</u></a>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; GoElectric</u></div>
             <span>GoElectric</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
@@ -25,7 +25,7 @@ class CarApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/6a8031b3b856500494676dc6f18c8222.png"></img>
+            <img alt="" className="big_img" src="https://i.gyazo.com/6a8031b3b856500494676dc6f18c8222.png"></img>
             <div className="c-t-div">
               <a
                 className="hire-span"

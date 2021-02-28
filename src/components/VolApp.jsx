@@ -15,7 +15,7 @@ class VolApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; CommAid</u></a>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; CommAid</u></div>
             <span>CommAid</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
@@ -25,7 +25,7 @@ class VolApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/6a0da55471629139f1e839772803c162.png"></img>
+            <img className="big_img" src="https://i.gyazo.com/6a0da55471629139f1e839772803c162.png"alt=""></img>
             <div className="c-t-div">
               <a
                 className="hire-span"

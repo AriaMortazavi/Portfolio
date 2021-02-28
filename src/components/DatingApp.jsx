@@ -15,7 +15,7 @@ class DatingApp extends Component {
         <FadeIn>
         <div className="about-container">
           <div className="parent-container">
-            <a onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Fuse</u></a>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Fuse</u></div>
             <span>Fuse</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
@@ -25,7 +25,7 @@ class DatingApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/34d7fa44e39f4dc6eee1ea7af77301c7.png"></img>
+            <img alt="" className="big_img" src="https://i.gyazo.com/34d7fa44e39f4dc6eee1ea7af77301c7.png"></img>
             <div className="c-t-div">
               <a
                 className="hire-span"
