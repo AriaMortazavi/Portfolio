@@ -210,9 +210,12 @@ const Wrapper = styled.div`
         box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05),
           0 2px 7px 0 rgba(72, 22, 66, 0.05);
           background-color: #f4f4f4;
+          transition: all .2s ;
         &:hover {
-          box-shadow: 0 2px 7px 0 #fa7249,
-            0 2px 7px 0 #fa7249;
+          box-shadow: 0 2px 7px 0 #acacac,
+            0 2px 7px 0 #acacac;
+            transform: scale(1.03);
+            transition: all .2s ;
         }
 
         .anImg {

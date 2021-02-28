@@ -161,6 +161,7 @@ const Wrapper = styled.div`
         a:nth-child(1) img {
           height: 50px;
           width: 50px;
+          transition: all .2s ;
           &:hover {
           transform: scale(1.1);
             transition: all .2s ;
@@ -170,6 +171,7 @@ const Wrapper = styled.div`
         a:nth-child(2) img {
           height: 55px;
           width: 50px;
+          transition: all .2s ;
         }
         a:nth-child(2) img:hover {
           transform: scale(1.1);
@@ -179,6 +181,7 @@ const Wrapper = styled.div`
         a:nth-child(3) img {
           height: 50px;
           width: 50px;
+          transition: all .2s ;
         }
         a:nth-child(3) img:hover {
           transform: scale(1.1);
@@ -188,6 +191,7 @@ const Wrapper = styled.div`
         a:nth-child(4) img {
           height: 50px;
           width: 50px;
+          transition: all .2s ;
         }
         a:nth-child(4) img:hover {
           transform: scale(1.1);
@@ -208,6 +212,7 @@ const Wrapper = styled.div`
           color: #fff;
           margin-right: 30px;
           border: 1px solid transparent;
+          transition: all .2s ;
 
           &:hover {
             background-color: #ededed;;

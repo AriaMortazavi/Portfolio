@@ -195,6 +195,7 @@ td{
           margin-right: 30px;
           margin-bottom: 30px;
           border: 1px solid transparent;
+          transition: all .2s ;
 
           &:hover {
             background-color: #ededed;;

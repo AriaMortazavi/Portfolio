@@ -103,10 +103,13 @@ const Wrapper = styled.div`
       font-weight: bold;
       padding-bottom: 30px;
       cursor: default;
+      transition: all .2s ;
     }
 
      li:hover{
         color: #fa7249;
+        transform: scale(1.1);
+        transition: all .2s ;
       }
 
     .activeLi {
