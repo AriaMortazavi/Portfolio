@@ -37,6 +37,8 @@ class Sidebar extends Component {
               className="portfolioPicture"
               style={this.portfolioPictureStyle()}
             />
+            <span className="p-span">📞 (778) 683 - 4414</span>
+            <br></br> <br></br>
             <span className="s-span">Front-End &#38; UX/UI Designer</span>
             <div className="p-div">
               <span>
@@ -81,8 +83,8 @@ const Wrapper = styled.div`
 
     .portfolioPicture{
       border: 5px solid #dc7a5c;
-      margin-top: 80px;
-      margin-bottom: 100px;
+      margin-top: 60px;
+      margin-bottom: 60px;
       position: relative;
     bottom: 10px;
     }
@@ -121,9 +123,16 @@ const Wrapper = styled.div`
     }
 
     > .s-span {
-      margin-top: 20px;
       font-size: 17px;
       color: white;
+      position: relative;
+    bottom: 10px;
+    }
+
+    .p-span{
+      font-size: 19px;
+      color: white;
+      font-weight: bold;
       position: relative;
     bottom: 10px;
     }
