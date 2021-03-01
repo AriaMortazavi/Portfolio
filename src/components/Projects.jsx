@@ -3,6 +3,11 @@ import styled from 'styled-components'
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
+import photo1 from "../assets/images/commaid.png";
+import photo2 from "../assets/images/fuse.png";
+import photo3 from "../assets/images/teamtrees.png";
+import photo4 from "../assets/images/goelectric.png";
+import photo5 from "../assets/images/viking.png";
 
 class Projects extends Component {
   volunteerButtonClick(e, tab) {
@@ -19,21 +24,14 @@ class Projects extends Component {
               <span
                 onClick={e => this.volunteerButtonClick(e, "VolApp")}
               >
-                <div
+                <img
                   className="anImg"
-                  style={{
-                    backgroundImage: 'url(https://i.gyazo.com/6a0da55471629139f1e839772803c162.png)'
-                  }}
-                ></div>
+                  src={photo1}
+                ></img>
                 <div className="text-container">
                   <span>
                     Volunteer App
                   </span>
-                  <span>Online Volunttering job web app</span>
-                  <div>
-                    <span>Technologies used:</span>
-                    <span>NextJS</span>
-                  </div>
                   <span>
                     <a target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/">
                       View web app
@@ -46,22 +44,15 @@ class Projects extends Component {
               <span
                 onClick={e => this.volunteerButtonClick(e, "DatingApp")}
               >
-                <div
+                 <img
                   className="anImg"
-                  style={{
-                    backgroundImage: 'url(https://i.gyazo.com/34d7fa44e39f4dc6eee1ea7af77301c7.png)'
-                  }}
-                ></div>
+                  src={photo2}
+                ></img>
                 <div className="text-container">
                   <span>
 
                       Dating App
                   </span>
-                  <span>Dating online web app</span>
-                  <div>
-                    <span>Technologies used:</span>
-                    <span>NextJS</span>
-                  </div>
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
@@ -77,22 +68,16 @@ class Projects extends Component {
               <span
                 onClick={e => this.volunteerButtonClick(e, "NonProfitApp")}
               >
-                <div
+
+                <img
                   className="anImg"
-                  style={{
-                    backgroundImage: 'url(https://i.gyazo.com/934ff07d876d3b90e5434e3a8c4e159d.jpg)'
-                  }}
-                ></div>
+                  src={photo3}
+                ></img>
                 <div className="text-container">
                   <span>
 
                      Non-profit organization
                   </span>
-                  <span>Web app for a non profit organization.</span>
-                  <div>
-                    <span>Technologies used:</span>
-                    <span>PHP</span>
-                  </div>
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
@@ -108,22 +93,15 @@ class Projects extends Component {
               <span
                 onClick={e => this.volunteerButtonClick(e, "CarApp")}
               >
-                <div
+                <img
                   className="anImg"
-                  style={{
-                    backgroundImage: 'url(https://i.gyazo.com/6a8031b3b856500494676dc6f18c8222.png)'
-                  }}
-                ></div>
+                  src={photo4}
+                ></img>
                 <div className="text-container">
                   <span>
 
                       GoElectric fuel calculator
                   </span>
-                  <span>A mobile web app</span>
-                  <div>
-                    <span>Technologies used:</span>
-                    <span>NextJS</span>
-                  </div>
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
@@ -139,22 +117,15 @@ class Projects extends Component {
               <span
                 onClick={e => this.volunteerButtonClick(e, "NFTApp")}
               >
-                <div
+                <img
                   className="anImg"
-                  style={{
-                    backgroundImage: 'url(https://i.gyazo.com/75277878d0eeb54a6575154761a5757b.jpg)'
-                  }}
-                ></div>
+                  src={photo5}
+                ></img>
                 <div className="text-container">
                   <span>
 
                   Non-fungible tokens (NFT) Digital Asset
                   </span>
-                  <span>NFT Graphic Design</span>
-                  <div>
-                    <span>Technologies used:</span>
-                    <span>Etherium Blockchain</span>
-                  </div>
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
@@ -195,7 +166,7 @@ const Wrapper = styled.div`
       overflow-y: auto;
       padding: 0 70px 0 50px;
       padding-bottom: 100px !important;
-
+      
       .m-container {
         display: grid;
         grid-template-columns: repeat(2, 50% [col-start]);
@@ -204,15 +175,15 @@ const Wrapper = styled.div`
         padding: 5% 0;
 
       .item-container {
-        height: 400px;
+        height: 100%;
         max-height: 400px;
-        border: 1px solid #eee;
         box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05),
           0 2px 7px 0 rgba(72, 22, 66, 0.05);
-          background-color: #f4f4f4;
+          background-color: #dedede;
+
           transition: all .2s ;
         &:hover {
-          box-shadow: 0 2px 7px 0 #acacac,
+          box-shadow: 0 2px 7px 0 #c9c9c9,
             0 2px 7px 0 #acacac;
             transform: scale(1.03);
             transition: all .2s ;
@@ -223,27 +194,26 @@ const Wrapper = styled.div`
           background-size: cover;
           background-repeat: 'no-repeat';
           width: 100%;
-          height: 65%;
+          /* border-bottom: 1px solid #888888; */
+
         }
 
         .text-container {
           display: flex;
           flex-direction: column;
-          height: 35%;
           justify-content: center;
           align-items: center;
+          color: white;
+          font-size: 24px;
+          color: black ;
 
           > span:nth-child(1) {
             font-weight: bold;
             font-size: 15px;
-            color: black;
+            color: black ;
             font-family: 'Poppins', sans-serif;
           }
 
-          > span:nth-child(2) {
-            font-size: 13px;
-            margin: 10px 0;
-          }
 
           > div:nth-child(3) {
             display: flex;
@@ -256,13 +226,15 @@ const Wrapper = styled.div`
             }
           }
 
-          > span:nth-child(4) {
+          > span:nth-child(2) {
             font-size: 13px;
-            margin-top: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
             color: #fa7249;
             cursor: default;
             font-weight: bold;
             font-family: 'Poppins', sans-serif;
+            text-decoration: underline;
           }
         }
       }

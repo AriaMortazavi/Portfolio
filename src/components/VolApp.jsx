@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
+import photo from "../assets/images/commaid.png";
+import "animate.css/animate.min.css";
 
 class VolApp extends Component {
   volunteerButtonClick(e, tab) {
@@ -13,10 +15,35 @@ class VolApp extends Component {
     return (
       <Wrapper>
         <FadeIn>
+          <div className="inside_text">
         <div className="about-container">
           <div className="parent-container">
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; CommAid</u></div>
             <span>CommAid</span>
+            <br></br>
+            <img className="big_img" src={photo} alt=""></img>
+            <br></br>
+            <h3 className="headerone">Summary</h3>
+            <span>
+              I am a Front-End Software Developer and UX/UI Designer. I am passionate about
+              developing scalable, dynamic, cutting-edge web and mobile
+              apps. Using modern Software Architecture, I
+              can work in alone or in teams to deliver high
+              quality results that exceed
+              expectation.
+            </span> 
+            <br></br>
+            <h3 className="headerone">Summary</h3>
+            <span>
+              I am a Front-End Software Developer and UX/UI Designer. I am passionate about
+              developing scalable, dynamic, cutting-edge web and mobile
+              apps. Using modern Software Architecture, I
+              can work in alone or in teams to deliver high
+              quality results that exceed
+              expectation.
+            </span> 
+            <br></br>
+            <h3 className="headerone">Summary</h3>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -25,19 +52,19 @@ class VolApp extends Component {
               quality results that exceed
               expectation.
             </span> <br></br>
-            <img className="big_img" src="https://i.gyazo.com/6a0da55471629139f1e839772803c162.png"alt=""></img>
             <div className="c-t-div">
               <a
                 className="hire-span"
                 target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/"
               >
-                Check out the site
+                The site
               </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
               </a> */}
             </div>
           </div>
+        </div>
         </div>
         </FadeIn>
       </Wrapper>
@@ -56,7 +83,12 @@ const mapDispatchToProps = dispatch => {
 export default connect(null, mapDispatchToProps)(VolApp);
 
 const Wrapper = styled.div`
-display: flex;
+ overflow-y: auto;
+ display: flex;  
+   justify-content: center;
+   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 .back_img{
   cursor: pointer;
   color: #ff6e40;
@@ -65,8 +97,18 @@ display: flex;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
 }
+.headerone{
+  font-weight: bold;
+  color: 707070;
+}
+.inside_text{
+      width: 100%;
+      height: 80vh;
+      padding: 20px;
+    }
+
   .about-container {
     .parent-container {
       display: flex;

@@ -13,6 +13,7 @@ class CarApp extends Component {
     return (
       <Wrapper>
         <FadeIn>
+        <div className="inside_text">
         <div className="about-container">
           <div className="parent-container">
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; GoElectric</u></div>
@@ -39,6 +40,7 @@ class CarApp extends Component {
             </div>
           </div>
         </div>
+        </div>
         </FadeIn>
       </Wrapper>
     );
@@ -56,7 +58,12 @@ const mapDispatchToProps = dispatch => {
 export default connect(null, mapDispatchToProps)(CarApp);
 
 const Wrapper = styled.div`
-display: flex;
+ overflow-y: auto;
+ display: flex;  
+   justify-content: center;
+   margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 .back_img{
   cursor: pointer;
   color: #ff6e40;
@@ -65,8 +72,14 @@ display: flex;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 50%;
 }
+.inside_text{
+      width: 90%;
+      height: 80vh;
+      padding: 20px;
+    }
+
   .about-container {
     .parent-container {
       display: flex;
@@ -159,7 +172,7 @@ display: flex;
           cursor: default;
         }
         .hire-span {
-          background-color: #fa7249;
+          background-color: #ff6e40;
           border-radius: 50px;
           padding: 15px 40px;
           color: #fff;
@@ -168,24 +181,25 @@ display: flex;
           width: 50%;
         margin: 0 auto;
         text-align: center;
+        transition: all .2s ;
 
           &:hover {
             background-color: #ededed;;
-            border: 1px solid #fa7249;
-            color: #fa7249;
+            border: 1px solid #ff6e40;
+            color: #ff6e40;
             transform: scale(1.1);
             transition: all .2s ;
           }
         }
 
         .resume-link {
-          border: 1px solid #fa7249;
+          border: 1px solid #ff6e40;
           border-radius: 50px;
           padding: 15px 30px;
-          color: #fa7249;
+          color: #ff6e40;
 
           &:hover {
-            background-color: #fa7249;
+            background-color: #ff6e40;
             border: 1px solid transparent;
             color: #fff;
           }

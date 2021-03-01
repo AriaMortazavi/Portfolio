@@ -73,7 +73,7 @@ const Wrapper = styled.div`
     padding-bottom: 50px;
 
     .portfolioPicture{
-      border: 5px solid #fa7249;
+      border: 5px solid #dc7a5c;
     }
 
     .top-container{

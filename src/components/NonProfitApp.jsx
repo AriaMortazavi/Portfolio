@@ -13,10 +13,11 @@ class NonProfitApp extends Component {
     return (
       <Wrapper>
         <FadeIn>
+        <div className="inside_text">
         <div className="about-container">
           <div className="parent-container">
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Donation Site</u></div>
-            <span>Team Trees Donation Site</span>
+            <span>Team Trees</span>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -39,6 +40,7 @@ class NonProfitApp extends Component {
             </div>
           </div>
         </div>
+        </div>
         </FadeIn>
       </Wrapper>
     );
@@ -56,7 +58,12 @@ const mapDispatchToProps = dispatch => {
 export default connect(null, mapDispatchToProps)(NonProfitApp);
 
 const Wrapper = styled.div`
-display: flex;
+ overflow-y: auto;
+ display: flex;  
+   justify-content: center;
+   margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 .back_img{
   cursor: pointer;
   color: #ff6e40;
@@ -67,6 +74,12 @@ display: flex;
   margin-right: auto;
   width: 50%;
 }
+.inside_text{
+      width: 90%;
+      height: 80vh;
+      padding: 20px;
+    }
+
   .about-container {
     .parent-container {
       display: flex;
