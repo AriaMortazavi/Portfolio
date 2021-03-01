@@ -38,7 +38,7 @@ class Sidebar extends Component {
               style={this.portfolioPictureStyle()}
             />
             <span className="p-span"><span role="img" aria-label="Phone">📞 </span><a href="tel:778-683-4414">(778) 683 - 4414</a> </span>
-            <br></br> <br></br>
+            <br></br>
             <span className="s-span">Front-End &#38; UX/UI Designer</span>
             <div className="p-div">
               <span>
@@ -83,8 +83,8 @@ const Wrapper = styled.div`
 
     .portfolioPicture{
       border: 5px solid #dc7a5c;
-      margin-top: 40px;
-      margin-bottom: 60px;
+      margin-top: 10px;
+      margin-bottom: 40px;
       position: relative;
     bottom: 10px;
     }
@@ -112,10 +112,10 @@ const Wrapper = styled.div`
       align-items: center;
       > .f-span {
       margin-top: 70px;
-      font-size: 1.9rem;
+      font-size: 1.6rem;
       color: white;
       position: relative;
-    bottom: 80px;
+    bottom: 60px;
     border: 3px solid white;
     border-radius: 40px;
     padding: 15px;
