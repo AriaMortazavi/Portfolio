@@ -37,7 +37,7 @@ class Sidebar extends Component {
               className="portfolioPicture"
               style={this.portfolioPictureStyle()}
             />
-            <span className="p-span"><span role="img">📞</span> (778) 683 - 4414</span>
+            <span className="p-span"><span role="img">📞</span><a href="tel:778-683-4414">(778) 683 - 4414</a> </span>
             <br></br> <br></br>
             <span className="s-span">Front-End &#38; UX/UI Designer</span>
             <div className="p-div">
