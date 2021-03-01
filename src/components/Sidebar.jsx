@@ -3,8 +3,12 @@ import photo from "../assets/images/portfolio_pic2.jpg";
 import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleMobileView } from "../store/actions";
+import { toggleActiveTab } from "../store/actions";
 
 class Sidebar extends Component {
+  roundButtonClick(e, tab) {
+    this.props.toggleActiveTab(tab);
+  }
 
   portfolioPictureStyle = () => {
     return {
@@ -26,13 +30,13 @@ class Sidebar extends Component {
             <i className="fas fa-times" onClick={this.closeSidebar}></i>
           </div>
           <div className="n-container">
+          <span className="f-span" onClick={e => this.roundButtonClick(e, "About")}>Aria Mortazavi</span>
             <img
               src={photo}
               alt="Portfolio"
               className="portfolioPicture"
               style={this.portfolioPictureStyle()}
             />
-            <span className="f-span">Aria Mortazavi</span>
             <span className="s-span">Front-End &#38; UX/UI Designer</span>
             <div className="p-div">
               <span>
@@ -57,6 +61,9 @@ const mapDispatchToProps = (dispatch) => {
     closeSidebar: () => {
       dispatch(toggleMobileView());
     },
+    toggleActiveTab: tab => {
+      dispatch(toggleActiveTab(tab));
+    }
   };
 };
 
@@ -74,16 +81,24 @@ const Wrapper = styled.div`
 
     .portfolioPicture{
       border: 5px solid #dc7a5c;
+      margin-top: 80px;
+      margin-bottom: 100px;
+      position: relative;
+    bottom: 10px;
     }
 
     .top-container{
       display:none;
       justify-content:flex-end;
       padding: 10px;
+      position: relative;
+    bottom: 10px;
     }
 
     .fa-times{
       font-size: 30px;
+      position: relative;
+    bottom: 10px;
     }
 
     .n-container{
@@ -94,25 +109,35 @@ const Wrapper = styled.div`
       justify-content: center;
       align-items: center;
       > .f-span {
-      margin-top: 40px;
-      font-size: 1.4375rem;
+      margin-top: 70px;
+      font-size: 1.9rem;
       color: white;
+      position: relative;
+    bottom: 80px;
+    border: 3px solid white;
+    border-radius: 40px;
+    padding: 15px;
+    cursor: pointer;
     }
 
     > .s-span {
       margin-top: 20px;
       font-size: 17px;
       color: white;
+      position: relative;
+    bottom: 10px;
     }
 
     > .p-div {
-      margin-top: 40px;
+      margin-top: 20px;
       display: flex;
       flex-direction: column;
       width: 80%;
       font-size: 14px;
       color: white;
       text-align: center;
+      position: relative;
+    bottom: 10px;
 
       > span {
         margin-bottom: 10px;
