@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
+import photo5 from "../assets/images/viking.png";
 
 class NFTApp extends Component {
   volunteerButtonClick(e, tab) {
@@ -18,6 +19,10 @@ class NFTApp extends Component {
           <div className="parent-container">
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; NFT Art Work</u></div>
             <span>NFT Art Work</span>
+            <br></br>
+            <img alt="" className="big_img" src={photo5}></img>
+            <br></br>
+            <h3 className="headerone">Summary</h3>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -25,14 +30,14 @@ class NFTApp extends Component {
               can work in alone or in teams to deliver high
               quality results that exceed
               expectation.
-            </span> <br></br>
-            <img alt="" className="big_img" src="https://i.gyazo.com/75277878d0eeb54a6575154761a5757b.jpg"></img>
+            </span> 
+            <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
                 target="_blank" rel="noopener noreferrer" href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041"
               >
-                Check out the site
+                Visit
               </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
@@ -63,7 +68,7 @@ const Wrapper = styled.div`
    justify-content: center;
    margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 .back_img{
   cursor: pointer;
   color: #ff6e40;
@@ -72,10 +77,14 @@ const Wrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
+}
+.headerone{
+  font-weight: bold;
+  color: 707070;
 }
 .inside_text{
-      width: 90%;
+      width: 100%;
       height: 80vh;
       padding: 20px;
     }
@@ -181,6 +190,7 @@ const Wrapper = styled.div`
           width: 50%;
         margin: 0 auto;
         text-align: center;
+        transition: all .2s ;
 
           &:hover {
             background-color: #ededed;;

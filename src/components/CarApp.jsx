@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
+import photo4 from "../assets/images/goelectric.png";
 
 class CarApp extends Component {
   volunteerButtonClick(e, tab) {
@@ -18,6 +19,10 @@ class CarApp extends Component {
           <div className="parent-container">
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; GoElectric</u></div>
             <span>GoElectric</span>
+            <br></br>
+            <img alt="" className="big_img" src={photo4}></img>
+            <br></br>
+            <h3 className="headerone">Summary</h3>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -25,14 +30,14 @@ class CarApp extends Component {
               can work in alone or in teams to deliver high
               quality results that exceed
               expectation.
-            </span> <br></br>
-            <img alt="" className="big_img" src="https://i.gyazo.com/6a8031b3b856500494676dc6f18c8222.png"></img>
+            </span> 
+            <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
                 target="_blank" rel="noopener noreferrer" href="https://github.com/AriaMortazavi/GoElectric"
               >
-                Check out the site
+                Visit
               </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
@@ -63,7 +68,7 @@ const Wrapper = styled.div`
    justify-content: center;
    margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 .back_img{
   cursor: pointer;
   color: #ff6e40;
@@ -72,10 +77,14 @@ const Wrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
+}
+.headerone{
+  font-weight: bold;
+  color: 707070;
 }
 .inside_text{
-      width: 90%;
+      width: 100%;
       height: 80vh;
       padding: 20px;
     }
@@ -172,7 +181,7 @@ const Wrapper = styled.div`
           cursor: default;
         }
         .hire-span {
-          background-color: #ff6e40;
+          background-color: #fa7249;
           border-radius: 50px;
           padding: 15px 40px;
           color: #fff;
@@ -185,21 +194,21 @@ const Wrapper = styled.div`
 
           &:hover {
             background-color: #ededed;;
-            border: 1px solid #ff6e40;
-            color: #ff6e40;
+            border: 1px solid #fa7249;
+            color: #fa7249;
             transform: scale(1.1);
             transition: all .2s ;
           }
         }
 
         .resume-link {
-          border: 1px solid #ff6e40;
+          border: 1px solid #fa7249;
           border-radius: 50px;
           padding: 15px 30px;
-          color: #ff6e40;
+          color: #fa7249;
 
           &:hover {
-            background-color: #ff6e40;
+            background-color: #fa7249;
             border: 1px solid transparent;
             color: #fff;
           }

@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
+import photo3 from "../assets/images/teamtrees.png";
+
 
 class NonProfitApp extends Component {
   volunteerButtonClick(e, tab) {
@@ -18,6 +20,10 @@ class NonProfitApp extends Component {
           <div className="parent-container">
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Donation Site</u></div>
             <span>Team Trees</span>
+            <br></br>
+            <img alt="" className="big_img" src={photo3}></img>
+            <br></br>
+            <h3 className="headerone">Summary</h3>
             <span>
               I am a Front-End Software Developer and UX/UI Designer. I am passionate about
               developing scalable, dynamic, cutting-edge web and mobile
@@ -25,14 +31,14 @@ class NonProfitApp extends Component {
               can work in alone or in teams to deliver high
               quality results that exceed
               expectation.
-            </span> <br></br>
-            <img alt="" className="big_img" src="https://i.gyazo.com/934ff07d876d3b90e5434e3a8c4e159d.jpg"></img>
+            </span> 
+            <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
                 target="_blank" rel="noopener noreferrer" href="https://github.com/AriaMortazavi/teamtrees"
               >
-                Check out the site
+                Visit
               </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
@@ -63,7 +69,7 @@ const Wrapper = styled.div`
    justify-content: center;
    margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 .back_img{
   cursor: pointer;
   color: #ff6e40;
@@ -72,10 +78,14 @@ const Wrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
+}
+.headerone{
+  font-weight: bold;
+  color: 707070;
 }
 .inside_text{
-      width: 90%;
+      width: 100%;
       height: 80vh;
       padding: 20px;
     }
@@ -181,6 +191,7 @@ const Wrapper = styled.div`
           width: 50%;
         margin: 0 auto;
         text-align: center;
+        transition: all .2s ;
 
           &:hover {
             background-color: #ededed;;

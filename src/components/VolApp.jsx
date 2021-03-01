@@ -97,7 +97,7 @@ const Wrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70%;
 }
 .headerone{
   font-weight: bold;
@@ -210,6 +210,7 @@ const Wrapper = styled.div`
           width: 50%;
         margin: 0 auto;
         text-align: center;
+        transition: all .2s ;
 
           &:hover {
             background-color: #ededed;;
