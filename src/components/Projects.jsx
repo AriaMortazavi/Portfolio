@@ -184,7 +184,7 @@ const Wrapper = styled.div`
         box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05),
           0 2px 7px 0 rgba(72, 22, 66, 0.05);
           background-color: #ffffff;
-
+          padding: 15px;
           transition: all .2s ;
         &:hover {
           box-shadow: 0 2px 7px 0 #c9c9c9,
@@ -212,8 +212,6 @@ const Wrapper = styled.div`
           color: white;
           font-size: 24px;
           color: black ;
-          position: relative;
-          bottom: 20px;
 
           > span:nth-child(1) {
             font-weight: bold;
