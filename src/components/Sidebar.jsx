@@ -111,7 +111,7 @@ const Wrapper = styled.div`
       justify-content: center;
       align-items: center;
       > .f-span {
-      margin-top: 70px;
+      margin-top: 20px;
       font-size: 1.6rem;
       color: white;
       position: relative;
