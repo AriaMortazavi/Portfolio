@@ -25,6 +25,7 @@ class Projects extends Component {
                 onClick={e => this.volunteerButtonClick(e, "VolApp")}
               >
                 <img
+                alt=""
                   className="anImg"
                   src={photo1}
                 ></img>
@@ -45,6 +46,7 @@ class Projects extends Component {
                 onClick={e => this.volunteerButtonClick(e, "DatingApp")}
               >
                  <img
+                 alt=""
                   className="anImg"
                   src={photo2}
                 ></img>
@@ -70,6 +72,7 @@ class Projects extends Component {
               >
 
                 <img
+                alt=""
                   className="anImg"
                   src={photo3}
                 ></img>
@@ -94,6 +97,7 @@ class Projects extends Component {
                 onClick={e => this.volunteerButtonClick(e, "CarApp")}
               >
                 <img
+                alt=""
                   className="anImg"
                   src={photo4}
                 ></img>
@@ -118,6 +122,7 @@ class Projects extends Component {
                 onClick={e => this.volunteerButtonClick(e, "NFTApp")}
               >
                 <img
+                alt=""
                   className="anImg"
                   src={photo5}
                 ></img>
