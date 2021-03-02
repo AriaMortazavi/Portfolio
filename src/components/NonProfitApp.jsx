@@ -64,7 +64,7 @@ class NonProfitApp extends Component {
             <br></br>
             <h3 className="headerone">Video presentation</h3>
             <br></br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xa__EuRTVao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Video presentation" width="600" height="315" src="https://www.youtube.com/embed/Xa__EuRTVao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br></br>
             <h3 className="headerone">What I learned</h3>
             <span>
