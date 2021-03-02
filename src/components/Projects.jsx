@@ -57,7 +57,7 @@ class Projects extends Component {
                   <span>
                     <a
                       target="_blank" rel="noopener noreferrer"
-                      href="https://github.com/shannonmaynard/dating-app"
+                      href="http://fuse2020.herokuapp.com/"
                     >
                       View Github files
                   </a>

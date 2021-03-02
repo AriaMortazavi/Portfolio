@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
 import photo5 from "../assets/images/viking.png";
+import photo4 from "../assets/images/acman.png";
 
 class NFTApp extends Component {
   volunteerButtonClick(e, tab) {
@@ -24,7 +25,7 @@ class NFTApp extends Component {
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-            To connect BC high school students to volunteer opportunities within the community to satisfy their community service hours required for graduation.
+            A non-fungible token (NFT) is a special type of cryptographic token which represents something unique; non-fungible tokens are thus not mutually interchangeable. This is in contrast to cryptocurrencies like bitcoin, and many network or utility tokens that are fungible in nature. Non-fungible tokens are used to create verifiable digital scarcity, as well as digital ownership, and the possibility of asset interoperability across multiple platforms. NFTs are used in several specific applications that require unique digital items like crypto art, digital collectibles, and online gaming. In this specific case, a personal art work I have created using Photoshop and Illustrator has been uploaded to the blockchain. The aim of this project is to simply showcase my graphic desgin skills. The NFT application, is simply a manner of storage for the art work.
 
 
             </span> 
@@ -34,73 +35,40 @@ class NFTApp extends Component {
             <span>
               <ol>
                 <li>
-                  Brainstorm ideas to solve a specific problem
+                  Collect all assets needed to create the project
                 </li>
                 <li>
-                  Research idea
+                  Research the concept and art style to understand what you are creating
                 </li>
                 <li>
-                  Create a low fidelity design
+                  Create the environment in Photoshop and Illustrator
                 </li>
                 <li>
-                  Conduct user testing
+                  Modify chracter and environment to create a smooth realastic composition
                 </li>
                 <li>
-                  Create medium fidelity design
+                  Lightning and deatil work
                 </li>
                 <li>
-                 Conduct UX/UI testing
+                 Text and final touches
                 </li>
                 <li>
-                 Create final high fidelity design
+                 Upload to NFT web site
                 </li>
-                <li>
-                 Create initial components using React
-                </li>
-                <li>
-                 Create pages
-                </li>
-                <li>
-                 Connect to back end
-                </li>
-                <li>
-                 Conduct user testing
-                </li>
-                <li>
-                 Bug fix
-                </li>
-                </ol>
-                <br></br>
-            </span> 
-            <h3 className="headerone">Features and assets</h3>
-            <br></br>
-            <img className="small_img" src="https://i.gyazo.com/2709855cf9abeff6638e157d4bdebcee.png" alt=""></img>
-            <br></br>
-            <h3 className="headerone">Competitive analysis</h3>
-            <br></br>
-            <img className="small_img" src="https://i.gyazo.com/6fd70298338bc8d540da8197d8ce1008.png" alt=""></img>
-            <br></br>
-            <h3 className="headerone">Medium fidelity design</h3>
-            <br></br>
-            <img className="small_img" src="https://i.gyazo.com/c85e12c8a1696f5350ca30ebf38002d0.png" alt=""></img>
-            <br></br>
-            <h3 className="headerone">Conclusion</h3>
-            <span>
-              <ul>
-                <li>
-                  Web Application
-                 </li>
-                 <li>
-                Connecting students to non-profit organizations
-                </li>
-                <li>
-                Getting local communities the help they need
-                </li>
-                <li>
-                Providing high schools an updated resource for students
-                </li>
-            </ul>
+            </ol>
             </span>
+            <br></br>
+            <h3 className="headerone">Concept vs Execution</h3>
+            <br></br>
+            <img
+                alt=""
+                  className="small_img"
+                  src={photo4}
+                ></img>
+            <br></br>
+            <h3 className="headerone">Composition</h3>
+            <br></br>
+            <img className="small_img2" src="https://im7.ezgif.com/tmp/ezgif-7-2315f7c67c58.webp" alt=""></img>
             <br></br>
             <div className="c-t-div">
               <a
@@ -151,7 +119,15 @@ const Wrapper = styled.div`
 }
 .small_img{
   display: block;
-  width: 70%;
+  width: 100%;
+}
+
+.small_img2{
+  width: 20%;
+  display: flex;  
+   justify-content: center;
+   margin-left: auto;
+  margin-right: auto;
 }
 .headerone{
   font-weight: bold;

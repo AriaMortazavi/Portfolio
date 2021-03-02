@@ -85,23 +85,10 @@ class VolApp extends Component {
             <br></br>
             <img className="small_img" src="https://i.gyazo.com/c85e12c8a1696f5350ca30ebf38002d0.png" alt=""></img>
             <br></br>
-            <h3 className="headerone">Conclusion</h3>
+            <h3 className="headerone">What I learned</h3>
             <span>
-              <ul>
-                <li>
-                  Web Application
-                 </li>
-                 <li>
-                Connecting students to non-profit organizations
-                </li>
-                <li>
-                Getting local communities the help they need
-                </li>
-                <li>
-                Providing high schools an updated resource for students
-                </li>
-            </ul>
-            </span> <br></br>
+             This is one of the most fleshed out school projects I have worked on. This was a result of great team work, efficiecny, and more experience within the team. With this project my team and I were finally comfortable with the React library. This allowed us to focus on more detailed aspects of the app. We also better learned how to work with a full stack team to deliver a high quality final product.
+            </span><br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"

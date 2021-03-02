@@ -3,6 +3,10 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
+import img1 from "../assets/images/img1.jpg";
+import img5 from "../assets/images/img5.jpg";
+import img6 from "../assets/images/img6.jpg";
+import img7 from "../assets/images/img7.jpg";
 import photo4 from "../assets/images/goelectric.png";
 
 class CarApp extends Component {
@@ -24,7 +28,7 @@ class CarApp extends Component {
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-            To connect BC high school students to volunteer opportunities within the community to satisfy their community service hours required for graduation.
+            GoElectric was a small mobile web app project myself and a two other programmer friends worked on. The purpose of the app is to intake specific information about a user's driving behaviour in order to produce a recommendation output. This output recommends what future car best suites the user as well as their carbon foot print year over year.
 
 
             </span> 
@@ -72,17 +76,19 @@ class CarApp extends Component {
                 </ol>
                 <br></br>
             </span> 
-            <h3 className="headerone">Features and assets</h3>
+            <h3 className="headerone">Creation process</h3>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/2709855cf9abeff6638e157d4bdebcee.png" alt=""></img>
+            <img className="small_img" src={img1} alt=""></img>
             <br></br>
-            <h3 className="headerone">Competitive analysis</h3>
+            <img className="small_img" src={img5} alt=""></img>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/6fd70298338bc8d540da8197d8ce1008.png" alt=""></img>
+            <img className="small_img" src={img6} alt=""></img>
             <br></br>
-            <h3 className="headerone">Medium fidelity design</h3>
+            <img className="small_img" src={img7} alt=""></img>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/c85e12c8a1696f5350ca30ebf38002d0.png" alt=""></img>
+            <h3 className="headerone">High fidelity prototype</h3>
+            <br></br>
+            <img className="small_img" src="https://i.gyazo.com/d013ae40377598a0813f2179357db1f4.png" alt=""></img>
             <br></br>
             <h3 className="headerone">Conclusion</h3>
             <span>
@@ -102,6 +108,10 @@ class CarApp extends Component {
             </ul>
             </span>
             <br></br>
+            <h3 className="headerone">What I learned</h3>
+            <span>
+             There were 2 objectives we wanted to accomplish through this project. First, we wanted to better introduce ourselves to a mobile focused web app. Second, and more importantly, we wanted to work on a project that allowed us to think more critically about every step. I believe we were succesful in accomplishing both objectives.
+            </span><br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
@@ -150,8 +160,8 @@ const Wrapper = styled.div`
   width: 70%;
 }
 .small_img{
-  display: block;
-  width: 70%;
+  display: flex;
+  width: 40%;
 }
 .headerone{
   font-weight: bold;

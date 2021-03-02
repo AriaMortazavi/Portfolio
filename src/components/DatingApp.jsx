@@ -24,7 +24,7 @@ class DatingApp extends Component {
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-            To connect BC high school students to volunteer opportunities within the community to satisfy their community service hours required for graduation.
+            With our dating app Fuse, we bring to you a super fun prompt generator chat function for direct messaging that will make conversing feel more like 2 people relaxing on a road trip, playing 21 questions to get to know each other better. Our app also includes a filtering feature to narrow down potential matches, giving people a higher chance of matching up with someone they can connect with. That’s what FUSE is all about; bringing people together, making real connections!
 
 
             </span> 
@@ -37,7 +37,7 @@ class DatingApp extends Component {
                   Brainstorm ideas to solve a specific problem
                 </li>
                 <li>
-                  Research idea
+                  Research idea and competition
                 </li>
                 <li>
                   Create a low fidelity design
@@ -46,7 +46,7 @@ class DatingApp extends Component {
                   Conduct user testing
                 </li>
                 <li>
-                  Create medium fidelity design
+                  Create a styleguide
                 </li>
                 <li>
                  Conduct UX/UI testing
@@ -72,40 +72,23 @@ class DatingApp extends Component {
                 </ol>
                 <br></br>
             </span> 
-            <h3 className="headerone">Features and assets</h3>
+            <h3 className="headerone">Styleguide brain storming</h3>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/2709855cf9abeff6638e157d4bdebcee.png" alt=""></img>
+            <img className="small_img" src="https://i.gyazo.com/87366c3e181b275d6cfc2794a17b8ff3.png" alt=""></img>
             <br></br>
             <h3 className="headerone">Competitive analysis</h3>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/6fd70298338bc8d540da8197d8ce1008.png" alt=""></img>
+            <img className="small_img" src="https://i.gyazo.com/542d8b60a6e323409472336a613b7545.png" alt=""></img>
             <br></br>
-            <h3 className="headerone">Medium fidelity design</h3>
-            <br></br>
-            <img className="small_img" src="https://i.gyazo.com/c85e12c8a1696f5350ca30ebf38002d0.png" alt=""></img>
-            <br></br>
-            <h3 className="headerone">Conclusion</h3>
+            <h3 className="headerone">What I learned</h3>
             <span>
-              <ul>
-                <li>
-                  Web Application
-                 </li>
-                 <li>
-                Connecting students to non-profit organizations
-                </li>
-                <li>
-                Getting local communities the help they need
-                </li>
-                <li>
-                Providing high schools an updated resource for students
-                </li>
-            </ul>
+              This project helped familiarize me with efficient methods of creating React components as well as introduced me to back end functions. In this project, I was also given the chance to create a randomizer that connects to a backend database. Lastely, this was the first major group project I was involved in which ontorduced me to efficient group dynamics in a programming environment.
             </span>
             <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
-                target="_blank" rel="noopener noreferrer" href="https://github.com/shannonmaynard/dating-app"
+                target="_blank" rel="noopener noreferrer" href="http://fuse2020.herokuapp.com/"
               >
                 Visit
               </a>

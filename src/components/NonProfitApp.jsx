@@ -25,7 +25,7 @@ class NonProfitApp extends Component {
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-            To connect BC high school students to volunteer opportunities within the community to satisfy their community service hours required for graduation.
+           This student individual project focused on database creation and PHP. Using the two, I created a non-profit site that collects donations for teamtrees.org.
 
 
             </span> 
@@ -35,34 +35,19 @@ class NonProfitApp extends Component {
             <span>
               <ol>
                 <li>
-                  Brainstorm ideas to solve a specific problem
+                  Create low fidelity sketch
                 </li>
                 <li>
-                  Research idea
+                  Conduct usser testing
                 </li>
                 <li>
-                  Create a low fidelity design
+                  Create front end visuals
                 </li>
                 <li>
-                  Conduct user testing
+                  Set up PHP, tables and backend basics
                 </li>
                 <li>
-                  Create medium fidelity design
-                </li>
-                <li>
-                 Conduct UX/UI testing
-                </li>
-                <li>
-                 Create final high fidelity design
-                </li>
-                <li>
-                 Create initial components using React
-                </li>
-                <li>
-                 Create pages
-                </li>
-                <li>
-                 Connect to back end
+                  Implement tables within the site
                 </li>
                 <li>
                  Conduct user testing
@@ -73,34 +58,17 @@ class NonProfitApp extends Component {
                 </ol>
                 <br></br>
             </span> 
-            <h3 className="headerone">Features and assets</h3>
+            <h3 className="headerone">SQL table creation</h3>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/2709855cf9abeff6638e157d4bdebcee.png" alt=""></img>
+            <img className="small_img" src="https://i.gyazo.com/e62f2877f3640666c5d86cdda140349d.png" alt=""></img>
             <br></br>
-            <h3 className="headerone">Competitive analysis</h3>
+            <h3 className="headerone">Video presentation</h3>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/6fd70298338bc8d540da8197d8ce1008.png" alt=""></img>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xa__EuRTVao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br></br>
-            <h3 className="headerone">Medium fidelity design</h3>
-            <br></br>
-            <img className="small_img" src="https://i.gyazo.com/c85e12c8a1696f5350ca30ebf38002d0.png" alt=""></img>
-            <br></br>
-            <h3 className="headerone">Conclusion</h3>
+            <h3 className="headerone">What I learned</h3>
             <span>
-              <ul>
-                <li>
-                  Web Application
-                 </li>
-                 <li>
-                Connecting students to non-profit organizations
-                </li>
-                <li>
-                Getting local communities the help they need
-                </li>
-                <li>
-                Providing high schools an updated resource for students
-                </li>
-            </ul>
+            The focus of this project was not visuals, instead, I used tthis oppertunity to better familiarize myself with PHP and mySql. I believe that any web developer must have a base line understanding of these common tools. The practice I recieved from this project, project has helped me with numerous other apps and sites.
             </span>
             <br></br>
             <div className="c-t-div">
