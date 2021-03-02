@@ -85,7 +85,7 @@ const Wrapper = styled.div`
       border: 5px solid #dc7a5c;
       margin-bottom: 40px;
       position: relative;
-    bottom: 10px;
+    bottom: 20px;
     }
 
     .top-container{
@@ -93,13 +93,13 @@ const Wrapper = styled.div`
       justify-content:flex-end;
       padding: 10px;
       position: relative;
-    bottom: 10px;
+    bottom: 20px;
     }
 
     .fa-times{
       font-size: 30px;
       position: relative;
-    bottom: 10px;
+    bottom: 20px;
     }
 
     .n-container{
@@ -124,7 +124,7 @@ const Wrapper = styled.div`
       font-size: 17px;
       color: white;
       position: relative;
-    bottom: 10px;
+    bottom: 20px;
     }
 
     .p-span{
@@ -132,7 +132,7 @@ const Wrapper = styled.div`
       color: white;
       font-weight: bold;
       position: relative;
-    bottom: 10px;
+    bottom: 20px;
     }
 
     > .p-div {
@@ -144,7 +144,7 @@ const Wrapper = styled.div`
       color: white;
       text-align: center;
       position: relative;
-    bottom: 10px;
+    bottom: 20px;
 
       > span {
         margin-bottom: 10px;
