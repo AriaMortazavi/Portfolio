@@ -83,7 +83,6 @@ const Wrapper = styled.div`
 
     .portfolioPicture{
       border: 5px solid #dc7a5c;
-      margin-top: 10px;
       margin-bottom: 40px;
       position: relative;
     bottom: 10px;
@@ -111,7 +110,6 @@ const Wrapper = styled.div`
       justify-content: center;
       align-items: center;
       > .f-span {
-      margin-top: 20px;
       font-size: 1.6rem;
       color: white;
       position: relative;
