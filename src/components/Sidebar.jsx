@@ -98,8 +98,10 @@ const Wrapper = styled.div`
 
     .fa-times{
       font-size: 30px;
+      color: white;
       position: relative;
-    bottom: 20px;
+    top: 20px;
+    right: 10px;
     }
 
     .n-container{
