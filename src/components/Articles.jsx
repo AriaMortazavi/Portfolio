@@ -154,7 +154,7 @@ export default class Articles extends Component {
                 Download
               </a>
         <br></br><br></br>
-    </tbody>
+    </tbody><br></br><br></br><br></br><br></br>
 
 </div>
 </FadeIn>
