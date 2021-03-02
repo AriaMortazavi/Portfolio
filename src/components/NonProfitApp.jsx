@@ -25,13 +25,83 @@ class NonProfitApp extends Component {
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-              I am a Front-End Software Developer and UX/UI Designer. I am passionate about
-              developing scalable, dynamic, cutting-edge web and mobile
-              apps. Using modern Software Architecture, I
-              can work in alone or in teams to deliver high
-              quality results that exceed
-              expectation.
+            To connect BC high school students to volunteer opportunities within the community to satisfy their community service hours required for graduation.
+
+
             </span> 
+            <br></br>
+            <h3 className="headerone">Steps</h3>
+            <br></br>
+            <span>
+              <ol>
+                <li>
+                  Brainstorm ideas to solve a specific problem
+                </li>
+                <li>
+                  Research idea
+                </li>
+                <li>
+                  Create a low fidelity design
+                </li>
+                <li>
+                  Conduct user testing
+                </li>
+                <li>
+                  Create medium fidelity design
+                </li>
+                <li>
+                 Conduct UX/UI testing
+                </li>
+                <li>
+                 Create final high fidelity design
+                </li>
+                <li>
+                 Create initial components using React
+                </li>
+                <li>
+                 Create pages
+                </li>
+                <li>
+                 Connect to back end
+                </li>
+                <li>
+                 Conduct user testing
+                </li>
+                <li>
+                 Bug fix
+                </li>
+                </ol>
+                <br></br>
+            </span> 
+            <h3 className="headerone">Features and assets</h3>
+            <br></br>
+            <img className="small_img" src="https://i.gyazo.com/2709855cf9abeff6638e157d4bdebcee.png" alt=""></img>
+            <br></br>
+            <h3 className="headerone">Competitive analysis</h3>
+            <br></br>
+            <img className="small_img" src="https://i.gyazo.com/6fd70298338bc8d540da8197d8ce1008.png" alt=""></img>
+            <br></br>
+            <h3 className="headerone">Medium fidelity design</h3>
+            <br></br>
+            <img className="small_img" src="https://i.gyazo.com/c85e12c8a1696f5350ca30ebf38002d0.png" alt=""></img>
+            <br></br>
+            <h3 className="headerone">Conclusion</h3>
+            <span>
+              <ul>
+                <li>
+                  Web Application
+                 </li>
+                 <li>
+                Connecting students to non-profit organizations
+                </li>
+                <li>
+                Getting local communities the help they need
+                </li>
+                <li>
+                Providing high schools an updated resource for students
+                </li>
+            </ul>
+            </span>
             <br></br>
             <div className="c-t-div">
               <a
@@ -78,6 +148,10 @@ const Wrapper = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
+}
+.small_img{
+  display: block;
   width: 70%;
 }
 .headerone{

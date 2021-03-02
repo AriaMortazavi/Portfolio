@@ -128,7 +128,7 @@ class Projects extends Component {
                 <div className="text-container">
                   <span>
 
-                  Non-fungible tokens (NFT) Digital Asset
+                  NFT Digital Asset
                   </span>
                   <span>
                     <a
