@@ -87,7 +87,6 @@ class About extends Component {
                 MY RESUME
               </a> */}
             </div>
-            <h1 className="proj_title">Projects</h1>
             <Projects className="proj_bar"></Projects>
           </div>
         </div>
@@ -117,6 +116,10 @@ const Wrapper = styled.div`
       height: 100vh;
       overflow-y: auto;
 
+      .proj_bar{
+          display: flex;
+        }
+
       > span:nth-child(1) {
         color: #707070;
         font-size: 17px;
@@ -144,6 +147,7 @@ const Wrapper = styled.div`
         color: #707070;
         font-family: "Fira Sans", sans-serif;
         font-size: 18px;
+        margin-bottom: 30px;
       }
 
       > span:nth-child(2),
@@ -202,6 +206,7 @@ const Wrapper = styled.div`
       .c-t-div {
         display: flex;
         margin: 50px 0 30px;
+        padding: 30px;
         > span {
           cursor: default;
         }
@@ -209,6 +214,7 @@ const Wrapper = styled.div`
           background-color: #fa7249;
           border-radius: 50px;
           padding: 15px 40px;
+          height: 100%;
           color: #fff;
           margin-right: 30px;
           border: 1px solid transparent;
@@ -228,6 +234,7 @@ const Wrapper = styled.div`
           border-radius: 50px;
           padding: 15px 30px;
           color: #fa7249;
+          width: 100%;
 
           &:hover {
             background-color: #fa7249;
