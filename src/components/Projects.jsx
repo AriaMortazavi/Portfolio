@@ -35,9 +35,7 @@ class Projects extends Component {
                     Volunteer App
                   </span>
                   <span>
-                    <a target="_blank" rel="noopener noreferrer" href="https://takfive-frontend-7oawpuhxb.vercel.app/">
-                      View web app
-                  </a>
+ 
                   </span>
                 </div>
                 </span>
@@ -56,12 +54,7 @@ class Projects extends Component {
                       Dating App
                   </span>
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                      href="http://fuse2020.herokuapp.com/"
-                    >
-                      View Github files
-                  </a>
+
                   </span>
                 </div>
                 </span>
@@ -82,12 +75,7 @@ class Projects extends Component {
                      Non-profit organization
                   </span>
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                      href="https://github.com/AriaMortazavi/teamtrees"
-                    >
-                      View Github files
-                  </a>
+ 
                   </span>
                 </div>
                 </span>
@@ -107,12 +95,7 @@ class Projects extends Component {
                       GoElectric fuel calculator
                   </span>
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                      href="https://github.com/AriaMortazavi/GoElectric"
-                    >
-                      View Github files
-                  </a>
+
                   </span>
                 </div>
                 </span>
@@ -132,12 +115,7 @@ class Projects extends Component {
                   NFT Digital Asset
                   </span>
                   <span>
-                    <a
-                      target="_blank" rel="noopener noreferrer"
-                      href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041"
-                    >
-                      View NFT Art
-                  </a>
+
                   </span>
                 </div>
                 </span>
