@@ -66,10 +66,6 @@ class NFTApp extends Component {
                   src={photo4}
                 ></img>
             <br></br>
-            <h3 className="headerone">Composition</h3>
-            <br></br>
-            <img className="small_img2" src="https://im7.ezgif.com/tmp/ezgif-7-2315f7c67c58.webp" alt=""></img>
-            <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
