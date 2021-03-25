@@ -202,7 +202,7 @@ const Wrapper = styled.div`
           border-radius: 50px;
           padding: 5px 60px;
           height: 100%;
-          font-size: 16px;
+          font-size: 14px;
           color: #fff;
           margin-right: 30px;
           border: 1px solid transparent;
