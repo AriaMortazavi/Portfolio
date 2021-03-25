@@ -19,7 +19,7 @@ class Projects extends Component {
         <FadeIn>
         <div className="projects-container">
           <div className='parent-container'>
-          <h1 className="proj_title">Projects</h1><br></br>
+       
             <div className='m-container'>
               <div className='item-container'>
               <span
@@ -143,11 +143,6 @@ const Wrapper = styled.div`
   .projects-container {
     display: flex;
     align-items: center;    
-    .proj_title{
-          color: #707070;
-          text-align: center;    
-          margin-top: 20px;
-    }
 
     .parent-container{
       height: 100vh;

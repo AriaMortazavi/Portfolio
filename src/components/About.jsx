@@ -38,7 +38,7 @@ class About extends Component {
               quality results that exceed
               expectation.
             </span>
-            <span>Find me on</span>
+            <span></span>
             <div>
               <a
                 target="_blank"
@@ -68,26 +68,21 @@ class About extends Component {
               >
                 <img className="iconImg" src={photo2} alt="LinkedIn" />
               </a>
-              {/* <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href=""
-              >
-                <img src={photo3} alt="Stackoverflow" />
-              </a>               */}
-            </div>
-            <div className="c-t-div">
-              <span
+              <button
                 className="hire-span"
                 onClick={e => this.roundButtonClick(e, "Resume")}
               >
                 My Resume
-              </span>
+              </button>
+            </div>
+            <div className="c-t-div">
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
               </a> */}
             </div>
-            <Projects className="proj_bar"></Projects>
+            <div className="proj_bar">
+            <Projects className="proj_item" />
+            </div>
           </div>
         </div>
         </FadeIn>
@@ -118,6 +113,8 @@ const Wrapper = styled.div`
 
       .proj_bar{
           display: flex;
+          position: relative;
+          bottom: 60px;
         }
 
       > span:nth-child(1) {
@@ -147,7 +144,6 @@ const Wrapper = styled.div`
         color: #707070;
         font-family: "Fira Sans", sans-serif;
         font-size: 18px;
-        margin-bottom: 30px;
       }
 
       > span:nth-child(2),
@@ -160,11 +156,10 @@ const Wrapper = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 10px;
 
         a:nth-child(1) img {
-          height: 50px;
-          width: 50px;
+          height: 60px;
+          width: 60px;
           transition: all .2s ;
           &:hover {
           transform: scale(1.1);
@@ -173,8 +168,8 @@ const Wrapper = styled.div`
         }
 
         a:nth-child(2) img {
-          height: 55px;
-          width: 50px;
+          height: 60px;
+          width: 60px;
           transition: all .2s ;
         }
         a:nth-child(2) img:hover {
@@ -183,8 +178,8 @@ const Wrapper = styled.div`
         }
 
         a:nth-child(3) img {
-          height: 50px;
-          width: 50px;
+          height: 60px;
+          width: 60px;
           transition: all .2s ;
         }
         a:nth-child(3) img:hover {
@@ -193,8 +188,8 @@ const Wrapper = styled.div`
         }
 
         a:nth-child(4) img {
-          height: 50px;
-          width: 50px;
+         height: 60px;
+          width: 60px;
           transition: all .2s ;
         }
         a:nth-child(4) img:hover {
@@ -202,19 +197,12 @@ const Wrapper = styled.div`
             transition: all .2s ;
         }
       }
-
-      .c-t-div {
-        display: flex;
-        margin: 50px 0 30px;
-        padding: 30px;
-        > span {
-          cursor: default;
-        }
-        .hire-span {
+      .hire-span {
           background-color: #fa7249;
           border-radius: 50px;
-          padding: 15px 40px;
+          padding: 5px 60px;
           height: 100%;
+          font-size: 16px;
           color: #fff;
           margin-right: 30px;
           border: 1px solid transparent;
@@ -228,6 +216,15 @@ const Wrapper = styled.div`
             transition: all .2s ;
           }
         }
+
+      .c-t-div {
+        display: flex;
+        margin: 10px 0 30px;
+        padding: 30px;
+        > span {
+          cursor: default;
+        }
+
 
         .resume-link {
           border: 1px solid #fa7249;
