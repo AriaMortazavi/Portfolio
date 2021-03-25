@@ -158,8 +158,8 @@ const Wrapper = styled.div`
         align-items: center;
 
         a:nth-child(1) img {
-          height: 60px;
-          width: 60px;
+          height: 55px;
+          width: 55px;
           transition: all .2s ;
           &:hover {
           transform: scale(1.1);
@@ -168,8 +168,8 @@ const Wrapper = styled.div`
         }
 
         a:nth-child(2) img {
-          height: 60px;
-          width: 60px;
+          height: 55px;
+          width: 55px;
           transition: all .2s ;
         }
         a:nth-child(2) img:hover {
@@ -178,8 +178,8 @@ const Wrapper = styled.div`
         }
 
         a:nth-child(3) img {
-          height: 60px;
-          width: 60px;
+          height: 55px;
+          width: 55px;
           transition: all .2s ;
         }
         a:nth-child(3) img:hover {
@@ -188,8 +188,8 @@ const Wrapper = styled.div`
         }
 
         a:nth-child(4) img {
-         height: 60px;
-          width: 60px;
+         height: 55px;
+          width: 55px;
           transition: all .2s ;
         }
         a:nth-child(4) img:hover {
