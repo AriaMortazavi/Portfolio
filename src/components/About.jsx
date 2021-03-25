@@ -115,6 +115,7 @@ const Wrapper = styled.div`
           display: flex;
           position: relative;
           bottom: 60px;
+          z-index: -1;
         }
 
       > span:nth-child(1) {
@@ -200,7 +201,7 @@ const Wrapper = styled.div`
       .hire-span {
           background-color: #fa7249;
           border-radius: 50px;
-          padding: 5px 60px;
+          padding: 5px 50px;
           height: 100%;
           font-size: 14px;
           color: #fff;
