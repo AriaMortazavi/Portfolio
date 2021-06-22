@@ -43,13 +43,6 @@ class About extends Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/Aria_Mor"
-              >
-                <img className="iconImg" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt="Twitter" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
                 href="mailto: ariamortazavi@ymail.com"
               >
                 <img className="iconImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/1024px-Circle-icons-mail.svg.png" alt="Twitter" />
@@ -81,7 +74,7 @@ class About extends Component {
               </a> */}
             </div>
             <div className="proj_bar">
-            <Projects className="proj_item" />
+            <Projects className="proj_item"/>
             </div>
           </div>
         </div>
@@ -115,7 +108,6 @@ const Wrapper = styled.div`
           display: flex;
           position: relative;
           bottom: 60px;
-          z-index: -1;
         }
 
       > span:nth-child(1) {
