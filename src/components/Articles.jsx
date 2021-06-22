@@ -24,10 +24,10 @@ export default class Articles extends Component {
                 <br/>
                 <h4>
                     Wildcat INC —
-                    Video Editor<em></em>
+                    Content Producer<em></em>
                 </h4>
                 <h4>
-                    OCT 2020 – Ongoing
+                    OCT 2017 – Apr 2021 (Full-time)
                 </h4>
                 <br/>
                 <p>
