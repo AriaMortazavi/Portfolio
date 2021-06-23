@@ -36,7 +36,7 @@ const ActiveComponent = tab => {
     <VolApp />
   ) :  tab.activeTab === 'NonProfitApp' ? (
     <NonProfitApp />
-  ) : tab.activeTab === 'NFTApp' ? (
+  ) : tab.activeTab === 'PhotoshopPoster' ? (
     <PhotoshopPoster />
   ) : tab.activeTab === 'DatingApp' ? (
     <DatingApp />
