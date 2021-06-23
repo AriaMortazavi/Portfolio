@@ -112,7 +112,7 @@ const Wrapper = styled.div`
 }
 .small_img{
   display: block;
-  width: 70%;
+  width: 90%;
 }
 .headerone{
   font-weight: bold;
