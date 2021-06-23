@@ -6,7 +6,7 @@ import FadeIn from 'react-fade-in';
 import photo5 from "../assets/images/viking.png";
 import photo4 from "../assets/images/acman.png";
 
-class NFTApp extends Component {
+class PhotoshopPoster extends Component {
   volunteerButtonClick(e, tab) {
     this.props.toggleActiveTab(tab);
   }
@@ -94,7 +94,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(NFTApp);
+export default connect(null, mapDispatchToProps)(PhotoshopPoster);
 
 const Wrapper = styled.div`
  overflow-y: auto;
