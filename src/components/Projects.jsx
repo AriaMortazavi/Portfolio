@@ -46,7 +46,7 @@ class Projects extends Component {
               >
                  <img
                  alt=""
-                  className="anImg"
+                  className="anImgpi"
                   src={photo2}
                 ></img>
                 <div className="text-container">
@@ -200,6 +200,15 @@ const Wrapper = styled.div`
           width: 100%;
           /* border-bottom: 1px solid #888888; */
 
+        }
+
+        .anImgpi {
+          padding: 20px;
+          background-position: top left;
+          background-size: cover;
+          background-repeat: 'no-repeat';
+          width: 90%;
+          /* border-bottom: 1px solid #888888; */
         }
 
         .text-container {
