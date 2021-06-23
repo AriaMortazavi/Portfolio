@@ -8,6 +8,7 @@ import Articles from './Articles'
 import VolApp from './VolApp'
 import PhotoshopPoster from './PhotoshopPoster'
 import CarApp from './CarApp'
+import BookCover from './BookCover'
 import ProductIllustration from './ProductIllustration'
 import PoromtionalPosters from './PoromtionalPosters'
 import NonProfitApp from './NonProfitApp'
@@ -41,6 +42,8 @@ const ActiveComponent = tab => {
     <PhotoshopPoster />
     ) : tab.activeTab === 'PoromtionalPosters' ? (
       <PoromtionalPosters />
+      ) : tab.activeTab === 'BookCover' ? (
+        <BookCover />
     ) : tab.activeTab === 'ProductIllustration' ? (
       <ProductIllustration />
   ) : tab.activeTab === 'CarApp' ? (

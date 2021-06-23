@@ -9,6 +9,7 @@ import photo3 from "../assets/images/teamtrees.png";
 import photo4 from "../assets/images/goelectric.png";
 import photo5 from "../assets/images/viking.png";
 import photo6 from "../assets/images/PoromtionalPosters.png";
+import photo9 from "../assets/images/BookCover.png";
 
 class Projects extends Component {
   volunteerButtonClick(e, tab) {
@@ -72,6 +73,25 @@ class Projects extends Component {
                 <div className="text-container">
                   <span>
                     Poromtional Posters
+                  </span>
+                  <span>
+
+                  </span>
+                </div>
+                </span>
+              </div>
+              <div className='item-container'>
+              <span
+                onClick={e => this.volunteerButtonClick(e, "BookCover")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo9}
+                ></img>
+                <div className="text-container">
+                  <span>
+                  Book Cover
                   </span>
                   <span>
 
