@@ -68,7 +68,7 @@ class ProductIllustration extends Component {
                 className="hire-span"
                 target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gallery/122132337/HyperX-Keyboard-Illustration"
               >
-                Visit
+                Full view
               </a>
               <br></br>
               <br></br>
@@ -76,7 +76,7 @@ class ProductIllustration extends Component {
                 className="hire-span"
                 target="_blank" rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1-pVN2Uqb0LgUgGL5n_kfu1N0aY-nD-TI"
               >
-                Download Project
+                Download project
               </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
@@ -234,6 +234,7 @@ const Wrapper = styled.div`
         margin: 0 auto;
         text-align: center;
         transition: all .2s ;
+        display: block;
 
           &:hover {
             background-color: #ededed;;
