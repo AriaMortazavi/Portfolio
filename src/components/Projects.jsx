@@ -43,25 +43,6 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "VolApp")}
-              >
-                <img
-                alt=""
-                  className="anImg"
-                  src={photo1}
-                ></img>
-                <div className="text-container">
-                  <span>
-                    Volunteer App
-                  </span>
-                  <span>
- 
-                  </span>
-                </div>
-                </span>
-              </div>
-              <div className='item-container'>
-              <span
                 onClick={e => this.volunteerButtonClick(e, "ProductIllustration")}
               >
                  <img
@@ -75,6 +56,25 @@ class Projects extends Component {
                   </span>
                   <span>
 
+                  </span>
+                </div>
+                </span>
+              </div>
+              <div className='item-container'>
+              <span
+                onClick={e => this.volunteerButtonClick(e, "VolApp")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo1}
+                ></img>
+                <div className="text-container">
+                  <span>
+                    Volunteer App
+                  </span>
+                  <span>
+ 
                   </span>
                 </div>
                 </span>
