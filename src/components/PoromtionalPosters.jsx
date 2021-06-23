@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
 import photo5 from "../assets/images/viking.png";
-import photo4 from "../assets/images/acman.png";
 
 class PoromtionalPosters extends Component {
   volunteerButtonClick(e, tab) {
