@@ -31,9 +31,8 @@ class Projects extends Component {
                   src={photo5}
                 ></img>
                 <div className="text-container">
-                  <br></br>
                   <span>
-                     Photoshop Poster Art
+                     Photoshop Poster
                   </span>
                   <span>
 
@@ -47,7 +46,7 @@ class Projects extends Component {
               >
                  <img
                  alt=""
-                  className="anImgpi"
+                  className="anImg"
                   src={photo2}
                 ></img>
                 <div className="text-container">
@@ -201,15 +200,6 @@ const Wrapper = styled.div`
           width: 100%;
           /* border-bottom: 1px solid #888888; */
 
-        }
-
-        .anImgpi {
-          padding: 10px;
-          background-position: top left;
-          background-size: cover;
-          background-repeat: 'no-repeat';
-          width: 100%;
-          /* border-bottom: 1px solid #888888; */
         }
 
         .text-container {
