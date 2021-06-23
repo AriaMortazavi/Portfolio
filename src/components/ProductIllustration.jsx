@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
-import photo8 from "../assets/images/Fuse.png";
+import photo8 from "../assets/images/fuse.png";
 
 class ProductIllustration extends Component {
   volunteerButtonClick(e, tab) {
