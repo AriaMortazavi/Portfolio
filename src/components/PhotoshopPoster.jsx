@@ -76,8 +76,7 @@ class PhotoshopPoster extends Component {
               <br></br>
               <br></br>
               <a
-                className="hire-span"
-                target="_blank" rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1Ceh2HHW5vlGgZkpYckleO-8hVh0WYNUY"
+                rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1Ceh2HHW5vlGgZkpYckleO-8hVh0WYNUY"
               >
                 Download project
               </a>
