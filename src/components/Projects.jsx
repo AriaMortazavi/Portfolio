@@ -102,6 +102,26 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
+                onClick={e => this.volunteerButtonClick(e, "PhotoshopPoster")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo5}
+                ></img>
+                <div className="text-container">
+                  <span>
+
+                  Photoshop Poster Art
+                  </span>
+                  <span>
+
+                  </span>
+                </div>
+                </span>
+              </div>
+              {/* <div className='item-container'>
+              <span
                 onClick={e => this.volunteerButtonClick(e, "NFTApp")}
               >
                 <img
@@ -119,7 +139,7 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

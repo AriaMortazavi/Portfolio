@@ -18,14 +18,14 @@ class NFTApp extends Component {
         <div className="inside_text">
         <div className="about-container">
           <div className="parent-container">
-            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; NFT Art Work</u></div>
-            <span>NFT Art Work</span>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Photoshop Poster Art Work</u></div>
+            <span>Photoshop Poster Art Work</span>
             <br></br>
             <img alt="" className="big_img" src={photo5}></img>
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-            A non-fungible token (NFT) is a special type of cryptographic token which represents something unique; non-fungible tokens are thus not mutually interchangeable. This is in contrast to cryptocurrencies like bitcoin, and many network or utility tokens that are fungible in nature. Non-fungible tokens are used to create verifiable digital scarcity, as well as digital ownership, and the possibility of asset interoperability across multiple platforms. NFTs are used in several specific applications that require unique digital items like crypto art, digital collectibles, and online gaming. In this specific case, a personal art work I have created using Photoshop and Illustrator has been uploaded to the blockchain. The aim of this project is to simply showcase my graphic desgin skills. The NFT application, is simply a manner of storage for the art work.
+            The following composition was a poster rendition of a physical statue turned into a composition using Photoshop. Using lighting work, filters and, color correction, the simple image taken using a camera was turned into a marketable graphic.
 
 
             </span> 
@@ -53,7 +53,7 @@ class NFTApp extends Component {
                  Text and final touches
                 </li>
                 <li>
-                 Upload to NFT web site
+                 Upload work
                 </li>
             </ol>
             </span>
@@ -69,7 +69,7 @@ class NFTApp extends Component {
             <div className="c-t-div">
               <a
                 className="hire-span"
-                target="_blank" rel="noopener noreferrer" href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/17248819672525151254528016816292716234446093013986486513685559690629522391041"
+                target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gallery/122130193/AC-Valhalla-Poster"
               >
                 Visit
               </a>
