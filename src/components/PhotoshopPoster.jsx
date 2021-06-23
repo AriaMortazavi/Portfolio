@@ -66,6 +66,14 @@ class PhotoshopPoster extends Component {
                   src={photo4}
                 ></img>
             <br></br>
+            <br></br>
+            <a
+                rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1Ceh2HHW5vlGgZkpYckleO-8hVh0WYNUY"
+              >
+                Download project
+              </a>
+              <br></br>
+              <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
@@ -74,12 +82,6 @@ class PhotoshopPoster extends Component {
                 Full view
               </a>
               <br></br>
-              <br></br>
-              <a
-                rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1Ceh2HHW5vlGgZkpYckleO-8hVh0WYNUY"
-              >
-                Download project
-              </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
               </a> */}

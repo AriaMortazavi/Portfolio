@@ -63,6 +63,13 @@ class ProductIllustration extends Component {
             <img className="small_img" src="https://i.gyazo.com/a180c81c40fdbcad5de065652f197435.jpg" alt=""></img>
             <br></br>
             <br></br>
+            <a
+                 rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1-pVN2Uqb0LgUgGL5n_kfu1N0aY-nD-TI"
+              >
+                Download project
+              </a>
+              <br></br>
+            <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
@@ -72,11 +79,6 @@ class ProductIllustration extends Component {
               </a>
               <br></br>
               <br></br>
-              <a
-                 rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1-pVN2Uqb0LgUgGL5n_kfu1N0aY-nD-TI"
-              >
-                Download project
-              </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
               </a> */}
