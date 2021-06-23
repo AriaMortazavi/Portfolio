@@ -67,12 +67,6 @@ class PhotoshopPoster extends Component {
                 ></img>
             <br></br>
             <br></br>
-            <a
-                rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1Ceh2HHW5vlGgZkpYckleO-8hVh0WYNUY"
-              >
-                Download project
-              </a>
-              <br></br>
               <br></br>
             <div className="c-t-div">
               <a
