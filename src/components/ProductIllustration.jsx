@@ -3,9 +3,8 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
-import photo2 from "../assets/images/fuse.png";
 
-class DatingApp extends Component {
+class ProductIllustration extends Component {
   volunteerButtonClick(e, tab) {
     this.props.toggleActiveTab(tab);
   }
@@ -17,14 +16,13 @@ class DatingApp extends Component {
         <div className="inside_text">
         <div className="about-container">
           <div className="parent-container">
-            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Fuse</u></div>
-            <span>Fuse</span>
+            <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Product Illustration</u></div>
+            <span>Product Illustration</span>
             <br></br>
-            <img alt="" className="big_img" src={photo2}></img>
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
-            With our dating app Fuse, we bring to you a super fun prompt generator chat function for direct messaging that will make conversing feel more like 2 people relaxing on a road trip, playing 21 questions to get to know each other better. Our app also includes a filtering feature to narrow down potential matches, giving people a higher chance of matching up with someone they can connect with. That’s what FUSE is all about; bringing people together, making real connections!
+           Using Adobe Illustrator, I created a fully vectorized, hand crafted product illustration. This project used a simple camera image of a HyperX keyboard to create a marketable, dynamic illustration.
 
 
             </span> 
@@ -34,61 +32,41 @@ class DatingApp extends Component {
             <span>
               <ol>
                 <li>
-                  Brainstorm ideas to solve a specific problem
+                  Analyze real image
                 </li>
                 <li>
-                  Research idea and competition
+                  re-draw and trace product
                 </li>
                 <li>
-                  Create a low fidelity design
+                  Create simple shapes in illustrator
                 </li>
                 <li>
-                  Conduct user testing
+                  Use lighting and gradients to create a 3d illusion
                 </li>
                 <li>
-                  Create a styleguide
+                  Ensure the product is replicated properly using overlays
                 </li>
                 <li>
-                 Conduct UX/UI testing
+                 Finalize and adjust layers
                 </li>
                 <li>
-                 Create final high fidelity design
+                 Use Photoshop to farther enhance the lighting effects
                 </li>
                 <li>
-                 Create initial components using React
-                </li>
-                <li>
-                 Create pages
-                </li>
-                <li>
-                 Connect to back end
-                </li>
-                <li>
-                 Conduct user testing
-                </li>
-                <li>
-                 Bug fix
+                 Upload final product
                 </li>
                 </ol>
                 <br></br>
             </span> 
-            <h3 className="headerone">Styleguide brain storming</h3>
+            <h3 className="headerone">Concept vs Execution</h3>
             <br></br>
-            <img className="small_img" src="https://i.gyazo.com/87366c3e181b275d6cfc2794a17b8ff3.png" alt=""></img>
+            <img className="small_img" src="https://i.gyazo.com/a180c81c40fdbcad5de065652f197435.jpg" alt=""></img>
             <br></br>
-            <h3 className="headerone">Competitive analysis</h3>
-            <br></br>
-            <img className="small_img" src="https://i.gyazo.com/542d8b60a6e323409472336a613b7545.png" alt=""></img>
-            <br></br>
-            <h3 className="headerone">What I learned</h3>
-            <span>
-              This project helped familiarize me with efficient methods of creating React components as well as introduced me to back end functions. In this project, I was also given the chance to create a randomizer that connects to a backend database. Lastely, this was the first major group project I was involved in which ontorduced me to efficient group dynamics in a programming environment.
-            </span>
             <br></br>
             <div className="c-t-div">
               <a
                 className="hire-span"
-                target="_blank" rel="noopener noreferrer" href="http://fuse2020.herokuapp.com/"
+                target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gallery/122132337/HyperX-Keyboard-Illustration"
               >
                 Visit
               </a>
@@ -113,7 +91,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(null, mapDispatchToProps)(DatingApp);
+export default connect(null, mapDispatchToProps)(ProductIllustration);
 
 const Wrapper = styled.div`
  overflow-y: auto;

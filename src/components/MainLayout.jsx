@@ -8,7 +8,7 @@ import Articles from './Articles'
 import VolApp from './VolApp'
 import PhotoshopPoster from './PhotoshopPoster'
 import CarApp from './CarApp'
-import DatingApp from './DatingApp'
+import ProductIllustration from './ProductIllustration'
 import NonProfitApp from './NonProfitApp'
 import { connect } from 'react-redux'
 
@@ -38,8 +38,8 @@ const ActiveComponent = tab => {
     <NonProfitApp />
   ) : tab.activeTab === 'PhotoshopPoster' ? (
     <PhotoshopPoster />
-  ) : tab.activeTab === 'DatingApp' ? (
-    <DatingApp />
+    ) : tab.activeTab === 'ProductIllustration' ? (
+      <ProductIllustration />
   ) : tab.activeTab === 'CarApp' ? (
     <CarApp />
   ) : (

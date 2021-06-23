@@ -62,7 +62,7 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "DatingApp")}
+                onClick={e => this.volunteerButtonClick(e, "ProductIllustration")}
               >
                  <img
                  alt=""
@@ -71,7 +71,7 @@ class Projects extends Component {
                 ></img>
                 <div className="text-container">
                   <span>
-                      Dating App
+                      Product Illustration
                   </span>
                   <span>
 
