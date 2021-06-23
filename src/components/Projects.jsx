@@ -208,12 +208,12 @@ const Wrapper = styled.div`
           justify-content: center;
           align-items: center;
           color: white;
-          font-size: 24px;
+          font-size: 20px;
           color: black ;
 
           > span:nth-child(1) {
             font-weight: bold;
-            font-size: 15px;
+            font-size: 13px;
             color: black ;
             font-family: 'Poppins', sans-serif;
           }
