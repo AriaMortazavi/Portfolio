@@ -21,6 +21,26 @@ class Projects extends Component {
           <div className='parent-container'>
        
             <div className='m-container'>
+            <div className='item-container'>
+              <span
+                onClick={e => this.volunteerButtonClick(e, "PhotoshopPoster")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo5}
+                ></img>
+                <div className="text-container">
+                  <span>
+
+                  Photoshop Poster Art
+                  </span>
+                  <span>
+
+                  </span>
+                </div>
+                </span>
+              </div>
               <div className='item-container'>
               <span
                 onClick={e => this.volunteerButtonClick(e, "VolApp")}
@@ -93,26 +113,6 @@ class Projects extends Component {
                   <span>
 
                       GoElectric fuel calculator
-                  </span>
-                  <span>
-
-                  </span>
-                </div>
-                </span>
-              </div>
-              <div className='item-container'>
-              <span
-                onClick={e => this.volunteerButtonClick(e, "PhotoshopPoster")}
-              >
-                <img
-                alt=""
-                  className="anImg"
-                  src={photo5}
-                ></img>
-                <div className="text-container">
-                  <span>
-
-                  Photoshop Poster Art
                   </span>
                   <span>
 
