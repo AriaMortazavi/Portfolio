@@ -203,11 +203,11 @@ const Wrapper = styled.div`
         }
 
         .anImgpi {
-          padding: 20px;
+          padding: 10px;
           background-position: top left;
           background-size: cover;
           background-repeat: 'no-repeat';
-          width: 90%;
+          width: 100%;
           /* border-bottom: 1px solid #888888; */
         }
 
