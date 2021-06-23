@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { connect } from "react-redux";
 import { toggleActiveTab } from "../store/actions";
 import FadeIn from 'react-fade-in';
-import photo5 from "../assets/images/viking.png";
+import photo6 from "../assets/images/PoromtionalPosters.png";
 
 class PoromtionalPosters extends Component {
   volunteerButtonClick(e, tab) {
@@ -20,7 +20,7 @@ class PoromtionalPosters extends Component {
             <div onClick={e => this.volunteerButtonClick(e, "Projects")} className="back_img"><u>Projects &lt; Poromtional Posters</u></div>
             <span>Poromtional Posters</span>
             <br></br>
-            <img alt="" className="big_img" src={photo5}></img>
+            <img alt="" className="big_img" src={photo6}></img>
             <br></br>
             <h3 className="headerone">Summary</h3>
             <span>
