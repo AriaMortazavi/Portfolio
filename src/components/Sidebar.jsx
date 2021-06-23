@@ -39,7 +39,7 @@ class Sidebar extends Component {
             />
             <span className="p-span"><span role="img" aria-label="Phone">📞 </span><a href="tel:778-683-4414">(778) 683 - 4414</a> </span>
             <br></br>
-            <span className="s-span">Front-End &#38; UX/UI Designer</span>
+            <span className="s-span">Front-End, Graphic &#38; UX/UI Designer</span>
             <div className="p-div">
               <span>
                 <i className="fas fa-dot-circle"></i>React, React Native, NextJS, and PHP <i className="fas fa-dot-circle"></i>
