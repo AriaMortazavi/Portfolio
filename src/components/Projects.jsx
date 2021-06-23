@@ -8,6 +8,7 @@ import photo2 from "../assets/images/fuse.png";
 import photo3 from "../assets/images/teamtrees.png";
 import photo4 from "../assets/images/goelectric.png";
 import photo5 from "../assets/images/viking.png";
+import photo6 from "../assets/images/PoromtionalPosters.png";
 
 class Projects extends Component {
   volunteerButtonClick(e, tab) {
@@ -52,6 +53,25 @@ class Projects extends Component {
                 <div className="text-container">
                   <span>
                       Product Illustration
+                  </span>
+                  <span>
+
+                  </span>
+                </div>
+                </span>
+              </div>
+              <div className='item-container'>
+              <span
+                onClick={e => this.volunteerButtonClick(e, "PoromtionalPosters")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo6}
+                ></img>
+                <div className="text-container">
+                  <span>
+                    Poromtional Posters
                   </span>
                   <span>
 
@@ -208,12 +228,12 @@ const Wrapper = styled.div`
           justify-content: center;
           align-items: center;
           color: white;
-          font-size: 20px;
+          font-size: 24px;
           color: black ;
 
           > span:nth-child(1) {
             font-weight: bold;
-            font-size: 13px;
+            font-size: 15px;
             color: black ;
             font-family: 'Poppins', sans-serif;
           }
