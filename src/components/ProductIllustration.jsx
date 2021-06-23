@@ -70,6 +70,13 @@ class ProductIllustration extends Component {
               >
                 Visit
               </a>
+
+              <a
+                className="hire-span"
+                target="_blank" rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1-pVN2Uqb0LgUgGL5n_kfu1N0aY-nD-TI"
+              >
+                Download Project
+              </a>
               {/* <a className="resume-link" target="_blank" href="https://drive.google.com/open?id=1uBx5NHt0po_osHWxYuaeVDCDvzGDR8Rl">
                 MY RESUME
               </a> */}
