@@ -31,6 +31,7 @@ class Projects extends Component {
                   src={photo5}
                 ></img>
                 <div className="text-container">
+                  <br></br>
                   <span>
                      Photoshop Poster Art
                   </span>
