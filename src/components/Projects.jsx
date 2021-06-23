@@ -81,7 +81,7 @@ class Projects extends Component {
               </div>
               <div className='item-container'>
               <span
-                onClick={e => this.volunteerButtonClick(e, "VolApp")}
+                onClick={e => this.volunteerButtonClick(e, "PoromtionalPosters")}
               >
                 <img
                 alt=""
