@@ -9,6 +9,7 @@ import VolApp from './VolApp'
 import PhotoshopPoster from './PhotoshopPoster'
 import CarApp from './CarApp'
 import ProductIllustration from './ProductIllustration'
+import PoromtionalPosters from './PoromtionalPosters'
 import NonProfitApp from './NonProfitApp'
 import { connect } from 'react-redux'
 
@@ -38,6 +39,8 @@ const ActiveComponent = tab => {
     <NonProfitApp />
   ) : tab.activeTab === 'PhotoshopPoster' ? (
     <PhotoshopPoster />
+    ) : tab.activeTab === 'PoromtionalPosters' ? (
+      <PoromtionalPosters />
     ) : tab.activeTab === 'ProductIllustration' ? (
       <ProductIllustration />
   ) : tab.activeTab === 'CarApp' ? (
