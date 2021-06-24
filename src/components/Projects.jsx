@@ -34,7 +34,7 @@ class Projects extends Component {
                 ></img>
                 <div className="text-container">
                   <span>
-                     Photoshop Poster
+                     
                   </span>
                   <span>
 
@@ -53,7 +53,7 @@ class Projects extends Component {
                 ></img>
                 <div className="text-container">
                   <span>
-                      Product Illustration
+                     
                   </span>
                   <span>
 
@@ -72,7 +72,7 @@ class Projects extends Component {
                 ></img>
                 <div className="text-container">
                   <span>
-                    Poromtional Posters
+                    
                   </span>
                   <span>
 
@@ -91,7 +91,7 @@ class Projects extends Component {
                 ></img>
                 <div className="text-container">
                   <span>
-                  Book Cover
+                 
                   </span>
                   <span>
 
@@ -110,7 +110,7 @@ class Projects extends Component {
                 ></img>
                 <div className="text-container">
                   <span>
-                    Volunteer App
+                  
                   </span>
                   <span>
  
@@ -131,7 +131,7 @@ class Projects extends Component {
                 <div className="text-container">
                   <span>
 
-                     Non-profit organization
+                  
                   </span>
                   <span>
  
@@ -151,7 +151,7 @@ class Projects extends Component {
                 <div className="text-container">
                   <span>
 
-                      GoElectric fuel calculator
+                      
                   </span>
                   <span>
 
