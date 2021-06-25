@@ -40,7 +40,7 @@ export default class Articles extends Component {
                     ● Creating graphics using the Adobe suite
                 </p>
                 <p>
-                    ● Working with in a team
+                    ● Working in a team
                 </p>
                 <br/>
                 <h2>
