@@ -23,7 +23,7 @@ class Projects extends Component {
           <div className='parent-container'>
        
             <div className='m-container'>
-            <div className='item-container'>
+            <div className='item-container'> <p>Game Promotional Poster</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "PhotoshopPoster")}
               >
@@ -42,7 +42,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'>
+              <div className='item-container'> <p>Hyper realastic Product Illustration</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "ProductIllustration")}
               >
@@ -61,7 +61,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'>
+              <div className='item-container'> <p>Event Promotional Poster</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "PoromtionalPosters")}
               >
@@ -80,7 +80,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'>
+              <div className='item-container'> <p>Book Cover Graphics</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "BookCover")}
               >
@@ -99,7 +99,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'>
+              <div className='item-container'> <p>Volunteering Site</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "VolApp")}
               >
@@ -118,7 +118,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'>
+              <div className='item-container'><p>Non-Profit PHP Project</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "NonProfitApp")}
               >
@@ -139,7 +139,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'>
+              <div className='item-container'><p>Car App</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "CarApp")}
               >
@@ -219,12 +219,23 @@ const Wrapper = styled.div`
       .item-container {
         height: 100%;
         max-height: 400px;
+        text-align: center;
         box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05),
           0 2px 7px 0 rgba(72, 22, 66, 0.05);
           background-color: #ffffff;
           padding: 15px;
           transition: all .2s ;
+          
+          p{
+            opacity: 0%;
+            color: #525252;
+            font-size: 16px;
+          }
+
         &:hover {
+          p{
+            opacity: 100%;
+          }
           box-shadow: 0 2px 7px 0 #c9c9c9,
             0 2px 7px 0 #acacac;
             transform: scale(1.03);
