@@ -99,7 +99,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'> <p>Volunteering Site</p>
+              <div className='item-container'> <p>Volunteering Tracker Site</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "VolApp")}
               >
@@ -139,7 +139,7 @@ class Projects extends Component {
                 </div>
                 </span>
               </div>
-              <div className='item-container'><p>Car App</p>
+              <div className='item-container'><p>Car Fuel Calculator App</p>
               <span
                 onClick={e => this.volunteerButtonClick(e, "CarApp")}
               >
