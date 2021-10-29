@@ -31,7 +31,7 @@ class About extends Component {
             typeSpeed={100}
           />
             <span>
-              I am a Front-End Software Developer, UX/UI, and Graphic Designer. I am passionate about
+              I am a Front-End Software Developer, and UX/UI Designer. I am passionate about
               developing dynamic, cutting-edge web and mobile
               apps and graphics. Using modern Software Architecture, I
               can work alone or in teams to deliver high
