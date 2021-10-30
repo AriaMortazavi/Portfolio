@@ -23,7 +23,7 @@ class Projects extends Component {
           <div className='parent-container'>
        
             <div className='m-container'>
-            <div className='item-container'> <p>Game Promotional Poster</p>
+            <div className='item-container'> 
               <span
                 onClick={e => this.volunteerButtonClick(e, "PhotoshopPoster")}
               >
@@ -41,8 +41,9 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Game Promotional Poster</p>
               </div>
-              <div className='item-container'> <p>Hyper realastic Product Illustration</p>
+              <div className='item-container'> 
               <span
                 onClick={e => this.volunteerButtonClick(e, "ProductIllustration")}
               >
@@ -60,8 +61,9 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Hyper realastic Product Illustration</p>
               </div>
-              <div className='item-container'> <p>Event Promotional Poster</p>
+              <div className='item-container'> 
               <span
                 onClick={e => this.volunteerButtonClick(e, "PoromtionalPosters")}
               >
@@ -79,8 +81,9 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Event Promotional Poster</p>
               </div>
-              <div className='item-container'> <p>Book Cover Graphics</p>
+              <div className='item-container'> 
               <span
                 onClick={e => this.volunteerButtonClick(e, "BookCover")}
               >
@@ -98,8 +101,9 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Book Cover Graphics</p>
               </div>
-              <div className='item-container'> <p>Volunteering Tracker Site</p>
+              <div className='item-container'> 
               <span
                 onClick={e => this.volunteerButtonClick(e, "VolApp")}
               >
@@ -117,8 +121,9 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Volunteering Tracker Site</p>
               </div>
-              <div className='item-container'><p>Non-Profit PHP Project</p>
+              <div className='item-container'>
               <span
                 onClick={e => this.volunteerButtonClick(e, "NonProfitApp")}
               >
@@ -138,8 +143,9 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Non-Profit PHP Project</p>
               </div>
-              <div className='item-container'><p>Car Fuel Calculator App</p>
+              <div className='item-container'>
               <span
                 onClick={e => this.volunteerButtonClick(e, "CarApp")}
               >
@@ -158,6 +164,7 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
+                <p>Car Fuel Calculator App</p>
               </div>
               {/* <div className='item-container'>
               <span
