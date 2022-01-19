@@ -106,8 +106,6 @@ const Wrapper = styled.div`
 
       .proj_bar{
           display: flex;
-          position: relative;
-          z-index: -2;
           bottom: 60px;
         }
 
