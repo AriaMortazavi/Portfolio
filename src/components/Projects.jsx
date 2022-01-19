@@ -9,7 +9,7 @@ import photo3 from "../assets/images/teamtrees.png";
 import photo4 from "../assets/images/goelectric.png";
 import photo5 from "../assets/images/viking.png";
 import photo6 from "../assets/images/PoromtionalPosters.png";
-import photo9 from "../assets/images/BookCover.png";
+
 
 class Projects extends Component {
   volunteerButtonClick(e, tab) {
@@ -19,10 +19,73 @@ class Projects extends Component {
     return (
       <Wrapper>
         <FadeIn>
+          
         <div className="projects-container">
           <div className='parent-container'>
-       
             <div className='m-container'>
+            <div className='item-container'> 
+              <span
+                onClick={e => this.volunteerButtonClick(e, "VolApp")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo1}
+                ></img>
+                <div className="text-container">
+                  <span>
+                  
+                  </span>
+                  <span>
+ 
+                  </span>
+                </div>
+                </span>
+                <p>Hour Tracker UX and Development</p>
+              </div>
+              <div className='item-container'>
+              <span
+                onClick={e => this.volunteerButtonClick(e, "NonProfitApp")}
+              >
+
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo3}
+                ></img>
+                <div className="text-container">
+                  <span>
+
+                  
+                  </span>
+                  <span>
+ 
+                  </span>
+                </div>
+                </span>
+                <p>Non-Profit PHP Website</p>
+              </div>
+              <div className='item-container'>
+              <span
+                onClick={e => this.volunteerButtonClick(e, "CarApp")}
+              >
+                <img
+                alt=""
+                  className="anImg"
+                  src={photo4}
+                ></img>
+                <div className="text-container">
+                  <span>
+
+                      
+                  </span>
+                  <span>
+
+                  </span>
+                </div>
+                </span>
+                <p>Fuel Calculator UX Design</p>
+              </div>
             <div className='item-container'> 
               <span
                 onClick={e => this.volunteerButtonClick(e, "PhotoshopPoster")}
@@ -41,7 +104,7 @@ class Projects extends Component {
                   </span>
                 </div>
                 </span>
-                <p>Game Promotional Poster</p>
+                <p>Promotional Poster Graphic Design</p>
               </div>
               <div className='item-container'> 
               <span
@@ -82,89 +145,6 @@ class Projects extends Component {
                 </div>
                 </span>
                 <p>Event Promotional Poster</p>
-              </div>
-              <div className='item-container'> 
-              <span
-                onClick={e => this.volunteerButtonClick(e, "BookCover")}
-              >
-                <img
-                alt=""
-                  className="anImg"
-                  src={photo9}
-                ></img>
-                <div className="text-container">
-                  <span>
-                 
-                  </span>
-                  <span>
-
-                  </span>
-                </div>
-                </span>
-                <p>Book Cover Graphics</p>
-              </div>
-              <div className='item-container'> 
-              <span
-                onClick={e => this.volunteerButtonClick(e, "VolApp")}
-              >
-                <img
-                alt=""
-                  className="anImg"
-                  src={photo1}
-                ></img>
-                <div className="text-container">
-                  <span>
-                  
-                  </span>
-                  <span>
- 
-                  </span>
-                </div>
-                </span>
-                <p>Volunteering Tracker Site</p>
-              </div>
-              <div className='item-container'>
-              <span
-                onClick={e => this.volunteerButtonClick(e, "NonProfitApp")}
-              >
-
-                <img
-                alt=""
-                  className="anImg"
-                  src={photo3}
-                ></img>
-                <div className="text-container">
-                  <span>
-
-                  
-                  </span>
-                  <span>
- 
-                  </span>
-                </div>
-                </span>
-                <p>Non-Profit PHP Project</p>
-              </div>
-              <div className='item-container'>
-              <span
-                onClick={e => this.volunteerButtonClick(e, "CarApp")}
-              >
-                <img
-                alt=""
-                  className="anImg"
-                  src={photo4}
-                ></img>
-                <div className="text-container">
-                  <span>
-
-                      
-                  </span>
-                  <span>
-
-                  </span>
-                </div>
-                </span>
-                <p>Car Fuel Calculator App</p>
               </div>
               {/* <div className='item-container'>
               <span
@@ -234,14 +214,14 @@ const Wrapper = styled.div`
           transition: all .2s ;
           
           p{
-            opacity: 0%;
-            color: #525252;
+            opacity: 100%;
+            color: #919191;
             font-size: 16px;
           }
 
         &:hover {
           p{
-            opacity: 100%;
+            color: #212121;
           }
           box-shadow: 0 2px 7px 0 #c9c9c9,
             0 2px 7px 0 #acacac;

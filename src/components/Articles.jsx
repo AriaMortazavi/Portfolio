@@ -14,9 +14,10 @@ export default class Articles extends Component {
                 </p>
                 <br/>
                 <p>
-                    BCIT Diploma in Digital Design and Development with
-                skills in responsive front-end development,
-                    UX/UI design,and graphic design.</p>
+                British Columbia Institution of Technology Diploma in Digital Design and
+                Development with extensive skills in responsive front-end development (HTML,
+                CSS, JavaScript, PHP, and the React library), UX/UI design, user research, and
+                graphic design.</p>
                 <br/>
                 <h2>
                     EXPERIENCE
@@ -27,20 +28,25 @@ export default class Articles extends Component {
                     Content Producer<em></em>
                 </h4>
                 <h4>
-                    OCT 2017 – Apr 2021 (Full-time)
+                    OCT 2016 – Dec 2021 (Full-time)
                 </h4>
                 <br/>
                 <p>
-                    ● animating, color correcting, subtitling, and audio engineering
+                    ● Managing multiple social media accounts with a combined total of 12+
+million followers
                 </p>
                 <p>
-                    ● Commonly provided daily turnarounds with limited time
+                    ● Video editing video content
                 </p>
                 <p>
-                    ● Creating graphics using the Adobe suite
+                    ● Overseeing video editors
                 </p>
                 <p>
-                    ● Working in a team
+                    ● Creating visuals using illustrator and photoshop
+                </p>
+                <p>
+                    ● Working with publishing studios to promote new releases through
+our social media and video platforms
                 </p>
                 <br/>
                 <h2>
@@ -48,20 +54,20 @@ export default class Articles extends Component {
                 </h2>
                 <br/>
                 <p>
-                    <strong>FRONT-END</strong>
+                    <strong>Front-End Development</strong>
                 </p>
                 <br/>
                 <p>
-                    ● Responsive front-end design
+                    ● Responsive front-end design skills in HTML, CSS, JS, and PHP
                 </p>
                 <p>
                     ● Proficient in the React library
                 </p>
                 <p>
-                    ● Converting prototypes to responsive applications
+                    ● Converting high fidelity prototypes to responsive applications
                 </p>
                 <p>
-                    ● Connecting front-end to back-end
+                    ● Proper implementation of front-end web apps for back end
                 </p>
                 <p>
                     ● Familiar with MySQL Database service navigation
@@ -76,16 +82,36 @@ export default class Articles extends Component {
                 </p>
                 <br/>
                 <p>
-                    ● Industry standard interfaces in the Adobe suite, InDesign, or Sketch
+                    ● Creation of up to date industry standard interfaces using the Adobe
+suite, InDesign, and Sketch
                 </p>
                 <p>
-                    ● Experience in conducting proper user research
+                    ● Experience in conducting professional user research
                 </p>
                 <p>
-                    ● Creating user testable prototypes
+                    ● Skills in creating low and high-fidelity user testable prototypes
                 </p>
                 <p>
-                    ● Creating industry competitive user persona for prototypes
+                    ● Creating competitive user personas for prototypes
+                </p>
+
+                <p>
+                    <strong>Social Media Management</strong>
+                </p>
+                <br/>
+                <p>
+                    ● Creating/editing short and long from video and still visual content to
+engage audiences on multiple different social media accounts
+                </p>
+                <p>
+                    ● Studying analytics to maximize engagement and audience retention
+                </p>
+                <p>
+                    ● Updating and informing audience on upcoming content and products
+                </p>
+                <p>
+                    ● Over 7 years of professional experience editing content on YouTube and
+various Social Media platforms
                 </p>
             <br/>
                 <h2>
@@ -131,25 +157,25 @@ export default class Articles extends Component {
                 </h2>
                 <br/>
                    <p>
-                    ● Collaborating
+                    ● Problem solver
                  </p>
                  <p>
-                    ● Listening
+                    ● Adaptable
                     </p>
                     <p>
-                    ● Problem solving
+                    ● Creative
                     </p>
                     <p>
-                    ● Communication
+                    ● Time efficient
                     </p>
                     <p>
-                    ● Time management
+                    ● Highly coachable
                     </p>
                     <br></br>
                     <br></br>
                     <a
                 className="hire-span"
-                href="https://drive.google.com/uc?export=download&id=10Q62YoYQ71DhRrbe-cp_yeiqSNA6iaIF"
+                href="https://drive.google.com/uc?export=download&id=11xIs1l9Xlfp-DOLvlSeyJapwegW_rtAJ"
               >
                 Download
               </a>

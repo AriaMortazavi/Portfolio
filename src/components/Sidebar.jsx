@@ -37,18 +37,21 @@ class Sidebar extends Component {
               className="portfolioPicture"
               style={this.portfolioPictureStyle()}
             />
-            <span className="p-span"><span role="img" aria-label="Phone">📞 </span><a href="tel:778-683-4414">(778) 683 - 4414</a> </span>
+            <span className="p-span"><a href="tel:778-683-4414">(778) 683 - 4414</a> </span>
             <br></br>
-            <span className="s-span">Front-End, Graphic &#38; UX/UI Designer</span>
+            <span className="s-span"></span>
             <div className="p-div">
+            <span>
+            Front-End, Graphic &#38; UX/UI Designer
+            </span>
               <span>
-                <i className="fas fa-dot-circle"></i>React, React Native, NextJS, and PHP <i className="fas fa-dot-circle"></i>
+                React, React Native, NextJS, and PHP 
               </span>
               <span>
-                <i className="fas fa-dot-circle"></i>The Adobe Suite <i className="fas fa-dot-circle"></i>
+                The Adobe Suite 
               </span>
               <span>
-                <i className="fas fa-dot-circle"></i>Sketch, Figma, Balsamiq <i className="fas fa-dot-circle"></i>
+               Sketch, Figma, Balsamiq 
               </span>
             </div>
           </div>
@@ -102,6 +105,10 @@ const Wrapper = styled.div`
       position: relative;
     top: 20px;
     right: 10px;
+    &:hover {
+            transform: scale(1.4);
+            transition: all .2s ;
+          }
     }
 
     .n-container{
@@ -112,11 +119,16 @@ const Wrapper = styled.div`
       justify-content: center;
       align-items: center;
       > .f-span {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       color: white;
       position: relative;
     bottom: 60px;
-    border: 3px solid white;
+
+    &:hover {
+            transform: scale(1.1);
+            transition: all .2s ;
+          }
+
     border-radius: 40px;
     padding: 15px;
     cursor: pointer;
