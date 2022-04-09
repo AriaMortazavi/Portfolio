@@ -45,13 +45,12 @@ class Sidebar extends Component {
             Front-End, Graphic &#38; UX/UI Designer
             </span>
               <span>
+                HTML, CSS, JavaScript,
                 React, React Native, NextJS, and PHP 
               </span>
               <span>
-                The Adobe Suite 
-              </span>
-              <span>
-               Sketch, Figma, Balsamiq 
+              The Adobe Suite, 
+               Sketch, Figma, and Balsamiq 
               </span>
             </div>
           </div>
