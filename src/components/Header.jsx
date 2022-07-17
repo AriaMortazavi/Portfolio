@@ -35,13 +35,7 @@ class Header extends Component {
               Projects
             </li>
 
-            <li
-              onClick={e => this.headerItemClicked(e, 'Resume')}
-              className={`headerLi ${this.props.activeTab === 'Resume' &&
-                'activeLi'}`}
-            >
-              Resume
-            </li>
+            
             {/* <li
               onClick={e => this.headerItemClicked(e, 'Articles')}
               className={`headerLi ${this.props.activeTab === 'Articles' &&

@@ -63,9 +63,9 @@ class About extends Component {
               </a>
               <button
                 className="hire-span"
-                onClick={e => this.roundButtonClick(e, "Resume")}
+                onClick={e => this.roundButtonClick(e, "Projects")}
               >
-                My Resume
+                My Projects
               </button>
             </div>
             <div className="c-t-div">
